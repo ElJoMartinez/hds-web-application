@@ -42,7 +42,7 @@ public class Product implements Serializable {
     }
     
     public String getSerialId() {
-        return modelId;
+        return serialId;
     }
     
     public void setSerialId(String serialId) {

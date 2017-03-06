@@ -6,15 +6,23 @@ package home.business;
  * @author toillezenitram
  * changelog: 2/8/2017
  *            added initial skeleton
+ *            2/17/2017
+ *            Updated product column 
+ *            note: also updated corresponding database column
  */
 
 import java.io.Serializable;
 import java.text.NumberFormat;
 import javax.persistence.*;
 
+@Entity
 public class Product implements Serializable {
     
     @Id // primary key
+    @Column(name = "PRODUCTID", nullable = false)
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    private long productId;
+    
     @Column(name = "MODELID", nullable = false)
     private String modelId;
     
@@ -32,6 +40,14 @@ public class Product implements Serializable {
     
     @Column(name = "LISTPRICE", nullable = false)
     private double listPrice;
+    
+    public long getProductId() {
+        return productId;
+    }
+    
+    public void setProductId(long id) {
+        this.productId = id;
+    }
     
     public String getModelId() {
         return modelId;

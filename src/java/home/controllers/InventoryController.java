@@ -27,7 +27,7 @@ public class InventoryController extends HttpServlet {
         String requestURI = request.getRequestURI();
         String url;
         if (requestURI.endsWith("/listen")) {
-            url = listen(request, response);
+            url = "";
         }else if (requestURI.endsWith("/showinventory")) {
             url = showInventory(request, response);
         }else {
@@ -51,7 +51,7 @@ public class InventoryController extends HttpServlet {
                 .getRequestDispatcher(url)
                 .forward(request, response);
     }
-    
+   
     private String registerUser(HttpServletRequest request,
             HttpServletResponse response) {
 
@@ -82,4 +82,19 @@ public class InventoryController extends HttpServlet {
         return url;
     }
     
+    // Method returns in a response the url to the inventory jsp
+    private String showInventory(HttpServletRequest request,
+            HttpServletResponse response) {
+        List<Product> products = ProductDB.selectProducts();
+        request.setAttribute("products", products);
+        String url = "/inventory/index.jsp";
+        return url;
+    }
+    
+     private String showProduct(HttpServletRequest request, 
+            HttpServletResponse response) {
+        
+
+        return "/catalog/catalogitem.jsp";
+    }
 }

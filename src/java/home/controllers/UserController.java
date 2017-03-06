@@ -1,5 +1,8 @@
 package home.controllers;
-
+/* 
+ * User Controller Servlet that will handle requests made
+ * to subscribe to the site's email list. 
+*/
 import java.io.IOException;
 import java.util.logging.Level;
 import java.util.logging.Logger;

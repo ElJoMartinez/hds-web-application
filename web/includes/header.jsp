@@ -27,7 +27,12 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#">Home Design Solutions</a>
+                    <a class="navbar-brand" href="/">
+                        <div class="logo">
+                            <img src="<c:url value='/images/hdslogo.png'/>" width='60' height='60' />
+                            <p>Home Design Solutions</p>
+                        </div>
+                    </a>
                 </div>
 
                 <div class="collapse navbar-collapse" id="navigation-example">

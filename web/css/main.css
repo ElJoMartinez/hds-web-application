@@ -25,3 +25,11 @@ font-family: 'Quicksand', sans-serif;
     min-height: 800px;
     background-image: url('../images/headerhome.jpg');
 }
+
+.logo p {
+    display: inline;
+    
+}
+.logo {
+  margin-top: -15px;  
+}

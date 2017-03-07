@@ -2,7 +2,7 @@
 
 
 <!-- start the middle column -->
-    <div class="main main-raised">
+    <div class="main main-raised" id="main-raised">
         <div class="container">
             <div class="section text-center section-landing">
                 <div class="row">

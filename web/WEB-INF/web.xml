@@ -54,7 +54,7 @@
         <location>/error_java.jsp</location>
     </error-page>
 
-    <!-- Define two security roles 
+    
     <security-role>
         <description>customer service employees</description>
         <role-name>service</role-name>
@@ -63,28 +63,27 @@
         <description>programmers</description>
         <role-name>programmer</role-name>
     </security-role>
--->
-<!--
+
+
     <security-constraint>
-        <Restrict access to the URLs in the admin directory 
+        <!--Restrict access to the URLs in the admin directory -->
         <web-resource-collection>
             <web-resource-name>Admin</web-resource-name>
             <url-pattern>/admin/*</url-pattern>
         </web-resource-collection>
 
-        <!Authorize the service and programmer roles 
+        <!--Authorize the service and programmer roles -->
         <auth-constraint>
             <role-name>service</role-name>
             <role-name>programmer</role-name>
         </auth-constraint>
         
-        <Forces a secure connection - remove comments to enable
+        <!--Forces a secure connection - remove comments to enable -->
         <user-data-constraint>
             <transport-guarantee>CONFIDENTIAL</transport-guarantee>
         </user-data-constraint>    
     </security-constraint>
--->
-    <!-- Use form-based authentication to provide access 
+    <!-- Use form-based authentication to provide access -->
     <login-config>
         <auth-method>FORM</auth-method>
         <form-login-config>
@@ -92,7 +91,7 @@
             <form-error-page>/login_error.jsp</form-error-page>
         </form-login-config>
     </login-config>
-    -->
+    
 
     <!-- Use cookies (not URL encoding) for session tracking -->
     <session-config>

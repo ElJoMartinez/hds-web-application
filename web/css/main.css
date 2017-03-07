@@ -1,0 +1,27 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 6, 2017, 5:56:49 PM
+    Author     : Elliot Martinez
+*/
+
+body {
+font-family: 'Quicksand', sans-serif;
+
+}
+
+#header_text h1, #heder_text p {
+    margin-top: 200px;
+    color: white;
+    text-shadow: 3px 3px 0px #000;
+    
+    
+}
+
+#header-img {
+    min-height: 800px;
+    background-image: url('../images/headerhome.jpg');
+}

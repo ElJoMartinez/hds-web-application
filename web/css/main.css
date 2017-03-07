@@ -13,12 +13,17 @@ font-family: 'Quicksand', sans-serif;
 
 }
 
-#header_text h1, #heder_text p {
+#header_text h1, #header_text p{
     margin-top: 200px;
     color: white;
     text-shadow: 3px 3px 0px #000;
     
     
+}
+
+#header_text h4 {
+    color: white;
+    text-shadow: 3px 3px 0px #000;
 }
 
 #header-img {
@@ -32,4 +37,8 @@ font-family: 'Quicksand', sans-serif;
 }
 .logo {
   margin-top: -15px;  
+}
+
+.main-raised {
+    margin-top: -250px;
 }

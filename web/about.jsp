@@ -1,7 +1,7 @@
 <%-- 
-    Document   : index
-    Created on : Mar 6, 2017, 10:28:33 PM
-    Author     : toillezenitram
+    Document   : about
+    Created on : Mar 7, 2017, 4:29:09 PM
+    Author     : Elliot Martinez
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
@@ -12,6 +12,6 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <h1>Hello About!</h1>
     </body>
 </html>

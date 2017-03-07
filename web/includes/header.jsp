@@ -44,7 +44,7 @@
                             </a>
                         </li>
                         <li <c:if test="${pageContext.request.servletPath == '/index.jsp'}">class="current"</c:if>>
-                            <a href="<c:url value='/' />"Home</a>
+                            <a href="<c:url value='/index.jsp'/>">Home</a>
                         </li>
                         
                     </ul>

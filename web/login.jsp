@@ -80,7 +80,7 @@
                     <div class="row">
                         <div class="col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3">
                             <div class="card card-signup">
-                                <form class="form" method="" action="">
+                                <form class="form" method="GET" action="j_sercurity_check">
                                     <div class="header header-primary text-center">
                                         <h4>Sign Up</h4>
                                     </div>
@@ -91,7 +91,7 @@
                                             <span class="input-group-addon">
                                                 <i class="material-icons">face</i>
                                             </span>
-                                            <input type="text" class="form-control" placeholder="First Name...">
+                                            <input type="text" class="form-control" placeholder="Username" name="j_username">
                                         </div>
 
                                         <div class="input-group">
@@ -105,7 +105,7 @@
                                             <span class="input-group-addon">
                                                 <i class="material-icons">lock_outline</i>
                                             </span>
-                                            <input type="password" placeholder="Password..." class="form-control" />
+                                            <input type="password" placeholder="Password..." class="form-control" name="j_password"/>
                                         </div>
 
                                         <!-- If you want to add a checkbox to this form, uncomment this code

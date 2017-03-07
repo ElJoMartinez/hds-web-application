@@ -79,7 +79,10 @@ public class UserController extends HttpServlet {
             message = "This email address already exists. <br>"
                     + "Please enter another email address.";
             request.setAttribute("message", message);
+            // url set back to index.jsp
             url = "/email/index.jsp";
+        // if it does not exist, insert email into database and set
+        // url to thanks.jsp page
         } else {
             UserDB.insert(user);
             message = "";

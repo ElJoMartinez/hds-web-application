@@ -11,10 +11,12 @@ import javax.persistence.TypedQuery;
 import home.business.User;
 
 public class UserDB {
-    
+    // Method inserts a user into the database
     public static void insert(User user) {
+        // Creates entity manager and transaction
         EntityManager em = DBUtil.getEmFactory().createEntityManager();
         EntityTransaction trans = em.getTransaction();
+        // Begin Transaction
         trans.begin();
         try {
             em.persist(user);
@@ -25,7 +27,7 @@ public class UserDB {
             em.close();
         }
     }
-    
+    // Method updates a user's information
     public static void update(User user) {
         EntityManager em = DBUtil.getEmFactory().createEntityManager();
         EntityTransaction trans = em.getTransaction();
@@ -40,7 +42,7 @@ public class UserDB {
             em.close();
         }
     }
-    
+    // Method selects a user from the database
     public static User selectUser(String email) {
         EntityManager em = DBUtil.getEmFactory().createEntityManager();
         String qString = "SELECT u FROM User u" +
@@ -57,7 +59,7 @@ public class UserDB {
         }
         return result;
     }
-    
+    // Method checks if a user's email already exists in the database
     public static boolean emailExists(String email) {
         User u = selectUser(email);
         return u != null;

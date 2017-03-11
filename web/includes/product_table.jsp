@@ -3,7 +3,9 @@
     
 -->
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<h2>${product.artistName}</h2>
-<h2>${product.albumName}</h2>
-<p>${product.productType}</p>
-<p>${product.priceCurrencyFormat}</p>
+<h2>${product.modelId}</h2>
+<h2>${product.serialId}</h2>
+<p>${product.Brand}</p>
+<p>${product.description}</p>
+<p>${product.cost}</p>
+<p>${product.listPrice}</p>

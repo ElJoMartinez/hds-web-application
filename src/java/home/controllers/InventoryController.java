@@ -26,7 +26,7 @@ public class InventoryController extends HttpServlet {
             HttpServletResponse response) throws ServletException, IOException {
         String requestURI = request.getRequestURI();
         String url;
-        if (requestURI.endsWith("/listen")) {
+        if (requestURI.endsWith("/browse")) {
             url = "";
         }else if (requestURI.endsWith("/showinventory")) {
             url = showInventory(request, response);
@@ -78,7 +78,7 @@ public class InventoryController extends HttpServlet {
         response.addCookie(emailCookie);
         
         Product product = (Product) session.getAttribute("product");
-        String url = "/catalog/" + product.getSerialId() + "/sound.jsp";
+        String url = "/inventory/" + product.getSerialId() + "/product.jsp";
         return url;
     }
     
@@ -95,6 +95,6 @@ public class InventoryController extends HttpServlet {
             HttpServletResponse response) {
         
 
-        return "/catalog/catalogitem.jsp";
+        return "/inventory/inventoryitem.jsp";
     }
 }

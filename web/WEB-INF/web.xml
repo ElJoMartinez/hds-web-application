@@ -23,11 +23,22 @@
         <servlet-class>home.controllers.UserController</servlet-class>
     </servlet>
     
+    <!-- Filter Definitions -->
+    <filter>
+        <filter-name>TestFilter1</filter-name>
+        <filter-class>home.filters.TestFilter1</filter-class>
+    </filter>
 
+    <!-- Filter Mappings -->
+    <filter-mapping>
+        <filter-name>TestFilter1</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+    
     <!-- servlet mappings -->
     <servlet-mapping>
         <servlet-name>InventoryController</servlet-name>
-        <url-pattern>/inventory/</url-pattern>
+        <url-pattern>/inventory/*</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
         <servlet-name>UserController</servlet-name>

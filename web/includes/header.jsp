@@ -7,9 +7,9 @@
         <meta charset="utf-8">
         <title>Home Design Solutions</title>
         <link rel="shortcut icon" href="<c:url value='/icons/favicon.ico'/>">
-        <link rel="stylesheet" href="<c:url value='css/bootstrap.min.css'/>">
-        <link rel="stylesheet" href="<c:url value='css/material-kit.css'/>">  
-        <link rel="stylesheet" href="<c:url value='css/main.css'/> ">
+        <link rel="stylesheet" href="<c:url value='/css/bootstrap.min.css'/>">
+        <link rel="stylesheet" href="<c:url value='/css/material-kit.css'/>">  
+        <link rel="stylesheet" href="<c:url value='/css/main.css'/> ">
         <link href="https://fonts.googleapis.com/css?family=Cantarell|Old+Standard+TT|Quicksand:500" rel="stylesheet">
         <link rel="stylesheet" href="<c:url value='https://fonts.googleapis.com/icon?family=Material+Icons'/>" />
         <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" />
@@ -27,7 +27,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="/">
+                    <a class="navbar-brand" href="/hds_web_application/">
                         <div class="logo">
                             <img src="<c:url value='/images/hdslogo.png'/>" width='60' height='60' />
                             <p>Home Design Solutions</p>
@@ -39,8 +39,8 @@
                     <ul class="nav navbar-nav navbar-right">
                         <!-- Link Name -->
                         <li>
-                            <a href="../components-documentation.html" target="_blank">
-                                Components
+                            <a href="<c:url value='/inventory'/>">
+                                Inventory
                             </a>
                         </li>
                         <li <c:if test="${pageContext.request.servletPath == '/index.jsp'}">class="current"</c:if>>

@@ -32,7 +32,7 @@ public class TestFilter1 implements Filter{
         
         sc.log(filterName + " | " + servletPath + " | before request");
         
-        chain.doFilter(httpRequest, httpResponse);
+        chain.doFilter(request, response);
         
         sc.log(filterName + " | " + servletPath + " | after request");
     }

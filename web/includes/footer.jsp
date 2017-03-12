@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <footer class="footer">
     <div class="container">
         <nav class="pull-left">
@@ -15,6 +16,24 @@
         </div>
     </div>
 </footer>
+=======
+    <footer class="footer">
+	        <div class="container">
+	            <nav class="pull-left">
+	                <ul>
+                            <li>
+	                        <a href="about.jsp">
+	                           About Us
+	                        </a>
+	                    </li>
+	                </ul>
+	            </nav>
+	            <div class="copyright pull-right">
+	                &copy; 2016, made with <i class="fa fa-heart heart"></i> by Creative Tim
+	            </div>
+	        </div>
+	    </footer>
+>>>>>>> 15fa92efd368ec31ab5be17682ccfac8fa0c403f
 </body>
 <!--   Core JS Files   -->
 <script src="/js/jquery.min.js" type="text/javascript"></script>

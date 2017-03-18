@@ -29,9 +29,9 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="/">
+                    <a class="navbar-brand" href="/hds-web-application/">
                         <div class="logo">
-                            <img src="<c:url value='/images/hdslogo.png'/>" width='60' height='60' />
+                            <img alt ="logo" src="<c:url value='/images/hdslogo.png'/>" width='60' height='60' />
                             <p>Home Design Solutions</p>
                         </div>
                     </a>
@@ -40,7 +40,7 @@
                 <div class="collapse navbar-collapse" id="navigation-example">
                     <ul class="nav navbar-nav navbar-right">
                         <li>
-                            <a href="<c:url value='/inventory' />">
+                            <a href="<c:url value='/inventory/' />">
                                 Inventory
                             </a>
                         </li>

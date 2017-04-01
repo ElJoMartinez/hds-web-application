@@ -25,12 +25,14 @@
                     finishes and upgraded storage features. HDS provides 
                     cabinetry that fits most any budget-from basic to bold.
                 </p>
-                <h3> How long will it take to get the cabinets I order?</h2>
+                <hr>
+                <h3 class="comment"> How long will it take to get the cabinets I order?</h2>
                 <p> Order time varies depending on the manufacturer and the
                     complexity of the job. The minimum time is roughly three
                     weeks and can be as much as eight weeks during peak times
                     of the year.
                 </p>
+                <hr>
                 <h3> Can you design my kitchen from a sketch of the room that I
                      provide?
                 </h3>
@@ -41,6 +43,7 @@
                     do our own measurements to verify that the design will 
                     actually work
                 </p>
+                <hr>
                 <h3>
                     What is the best type of countertop for the kitchen?
                 </h3>
@@ -50,6 +53,7 @@
                     flexibility of design and product longevity. Laminate, solid 
                     surface, quartz-enhanced and granite are all good choices.
                 </p>
+                <hr>
                 <h3>
                     Can you match my existing cabinets or furniture?
                 </h3>
@@ -59,6 +63,7 @@
                     compaitble with your existing cabinets or furniture. In no 
                     case can we guarantee an exact match.
                 </p>
+                <hr>
                 <h3>
                     What construction features should I look for when choosing
                     cabinets?
@@ -78,9 +83,11 @@
                     cabinets meet construction standards designed to ensure many
                     years of trouble-free service.
                 </p>
+                <hr>
                 <h3>
                     What are the most popular types of cabinets?
                 </h3>
+                
                 <p>
                     While popular cabinet styles and trends vary from year
                     to year, traditional raised-panel oak styling is always
@@ -95,6 +102,7 @@
                     popular as manufacturers have developed a variety of 
                     finishes allowing it to work in more applications.
                 </p>
+                <hr>
                 <h3>
                     What is the difference between manufactured cabinets and
                     custom-made cabinets?
@@ -104,6 +112,7 @@
                     and finishes available from "custom" cabinet makers and the
                     "stock" manufacturers. 
                 </p>
+                <hr>
                 <h3>
                     Do you charge a design free, measure fee or other fees in 
                     addition to the contract price for cabinets and installation?

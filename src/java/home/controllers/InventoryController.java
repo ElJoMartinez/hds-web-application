@@ -22,30 +22,29 @@ import home.util.CookieUtil;
 public class InventoryController extends HttpServlet {
     
     @Override
-    public void doGet(HttpServletRequest request, 
-            HttpServletResponse response) throws ServletException, IOException {
+    public void doGet(HttpServletRequest request, HttpServletResponse response) 
+            throws ServletException, IOException {
+        
         String requestURI = request.getRequestURI();
-        String url;
-        if (requestURI.endsWith("/browse")) {
-            url = "";
-        }else if (requestURI.endsWith("/showinventory")) {
+        String url = "";
+        
+        if (requestURI.endsWith("/showinventory")) {
             url = showInventory(request, response);
-        }else {
-            url = showProduct(request, response);
         }
+        System.out.println(url);
         getServletContext()
-                .getRequestDispatcher(url)
-                .forward(request, response);
-            
+            .getRequestDispatcher(url)
+            .forward(request, response);
     }
     
     @Override
     public void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
+        
         String requestURI = request.getRequestURI();
-        String url = "/inventory";
-        if (requestURI.endsWith("/register")) {
-            url = registerUser(request, response);
+        String url = "";
+        if (requestURI.endsWith("/showinventory")) {
+            url = showInventory(request, response);
         }
         getServletContext()
                 .getRequestDispatcher(url)
@@ -56,44 +55,21 @@ public class InventoryController extends HttpServlet {
             HttpServletResponse response) {
 
         HttpSession session = request.getSession();
-        String firstName = request.getParameter("firstName");
-        String lastName = request.getParameter("lastName");
-        String email = request.getParameter("email");
-
-        User user = new User();
-        user.setFirstName(firstName);
-        user.setLastName(lastName);
-        user.setEmail(email);
-        if (UserDB.emailExists(email)) {
-            UserDB.update(user);
-        } else {
-            UserDB.insert(user);
-        }
-
-        session.setAttribute("user", user);
-
-        Cookie emailCookie = new Cookie("emailCookie", email);
-        emailCookie.setMaxAge(60 * 60 * 24 * 365 * 2);
-        emailCookie.setPath("/");
-        response.addCookie(emailCookie);
-        
-        Product product = (Product) session.getAttribute("product");
-        String url = "/inventory/" + product.getSerialId() + "/product.jsp";
-        return url;
+        return "/index.jsp";
     }
     
     // Method returns in a response the url to the inventory jsp
     private String showInventory(HttpServletRequest request,
             HttpServletResponse response) {
-        List<Product> products = ProductDB.selectProducts();
-        request.setAttribute("products", products);
+        
         String url = "/inventory/index.jsp";
         return url;
     }
     
      private String showProduct(HttpServletRequest request, 
             HttpServletResponse response) {
-        
+        List<Product> products = ProductDB.selectProducts();
+        request.setAttribute("products", products);
 
         return "/inventory/inventoryitem.jsp";
     }

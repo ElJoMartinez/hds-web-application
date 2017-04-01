@@ -10,7 +10,7 @@ font-family: 'Quicksand', sans-serif;
 
 #header_text h1, #header_text p{
     margin-top: 200px;
-    color: white;
+    color: #FF992C;
     text-shadow: 3px 3px 0px #000;
     
     
@@ -22,7 +22,7 @@ font-family: 'Quicksand', sans-serif;
 }
 
 #header-img {
-    min-height: 400px;
+    min-height: 500px;
     background-image: url('../images/headerhome.jpg');
 }
 
@@ -35,7 +35,19 @@ font-family: 'Quicksand', sans-serif;
 }
 
 .main-raised {
-    margin-top: -300px;
+   
+}
+#faq {
+    text-align: center;
+    margin-top: 200px;
+ 
 }
 
 
+#faqContent h3 {
+    color: #FF992C;
+}
+
+footer a, footer a:hover, .navbar .navbar-nav > li > a:hover, .navbar .navbar-nav > li > a:focus{
+    color: #FF992C;
+}

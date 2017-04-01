@@ -9,7 +9,7 @@ public class HDSContextListener implements ServletContextListener {
     public void contextInitialized(ServletContextEvent event) {
         
         ServletContext sc = event.getServletContext();
-
+        
         // get the absolute paths for swithing regular and secure connections
         String contextPath = sc.getContextPath();
         String absolutePath = "http://localhost:8080" + contextPath;

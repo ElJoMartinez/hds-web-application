@@ -22,6 +22,7 @@ import static org.junit.Assert.*;
  * @author toillezenitram
  */
 public class UserDBTest {
+    EntityManager em;
     
     public UserDBTest() {
     }
@@ -37,6 +38,7 @@ public class UserDBTest {
     
     @Before
     public void setUp() {
+        em = DBUtil.getEmFactory().createEntityManager();
         
     }
     
@@ -50,7 +52,7 @@ public class UserDBTest {
      */
     @Test
     public void testInsert() {
-         EntityManager em = DBUtil.getEmFactory().createEntityManager();
+         
          User u = new User();
          u.setFirstName("mock");
          u.setLastName("user");

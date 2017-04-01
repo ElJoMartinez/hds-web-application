@@ -13,8 +13,7 @@
         <link rel="stylesheet" href="<c:url value='https://fonts.googleapis.com/icon?family=Material+Icons'/>" />
         <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" />
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
-        
-        
+         
     </head>
     <!-- Start Body Section: Terminates in footer jsp -->
     <body>
@@ -29,7 +28,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="/hds-web-application/">
+                    <a class="navbar-brand" href="/hds/">
                         <div class="logo">
                             <img alt ="logo" src="<c:url value='/images/hdslogo.png'/>" width='60' height='60' />
                             <p>Home Design Solutions</p>
@@ -40,47 +39,33 @@
                 <div class="collapse navbar-collapse" id="navigation-example">
                     <ul class="nav navbar-nav navbar-right">
                         <li>
-                            <a href="<c:url value='/inventory/' />">
+                            <a href="<c:url value='${request.contextPath}/inventory/index.jsp' />">
                                 Inventory
                             </a>
                         </li>
                         <li>
-                            <a href="http://demos.creative-tim.com/material-kit-pro/presentation.html?ref=utp-freebie" target="_blank">
-                                <i class="material-icons">unarchive</i> Upgrade to PRO
+                            <a href="<c:url value='/about.jsp' />">
+                                About Us
                             </a>
                         </li>
                         <li>
-                            <a href="https://twitter.com/CreativeTim" target="_blank" class="btn btn-simple btn-white btn-just-icon">
-                                <i class="fa fa-twitter"></i>
+                            <a href="<c:url value='/faqs.jsp' />">
+                                FAQs
                             </a>
                         </li>
                         <li>
-                            <a href="https://www.facebook.com/CreativeTim" target="_blank" class="btn btn-simple btn-white btn-just-icon">
-                                <i class="fa fa-facebook-square"></i>
+                            <a href="<c:url value='/contact.jsp' />">
+                                Contact
                             </a>
                         </li>
                         <li>
-                            <a href="https://www.instagram.com/CreativeTimOfficial" target="_blank" class="btn btn-simple btn-white btn-just-icon">
-                                <i class="fa fa-instagram"></i>
+                            <a href="<c:url value='/services.jsp' />">
+                                Services
                             </a>
                         </li>
-
                     </ul>
                 </div>
 
             </div>
         </nav>
-        <div class="wrapper">
-            <div class="header header-filter"  id="header-img">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-6" id="header_text">
-                            <h1 class="title">Write the best title for your page.</h1>
-                            <h4>Every landing page needs a small description after the big bold title, that's why we added this text here. Add here all the information that can make you or your product create the first impression.</h4>
-                            <br />
-
-                        </div>
-                    </div>
-                </div>
-            </div>	
-        </div>
+        

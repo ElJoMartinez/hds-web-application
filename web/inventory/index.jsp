@@ -52,7 +52,7 @@
                     <div class="row">
                         <div class="col-md-4">
                             <div class="team-player">
-                                <img src="../assets/img/avatar.jpg" alt="Thumbnail Image" class="img-raised img-circle">
+                                <img src="/images/avatar.jpg" alt="Thumbnail Image" class="img-raised img-circle">
                                 <h4 class="title">Gigi Hadid <br />
                                     <small class="text-muted">Model</small>
                                 </h4>

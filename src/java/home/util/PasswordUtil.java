@@ -39,6 +39,7 @@ public class PasswordUtil {
         byte[] saltBytes = new byte[32];
         r.nextBytes(saltBytes);
         return Base64.getEncoder().encodeToString(saltBytes);
+        
     }
     
     public static String hashAndSaltPassword(String password)

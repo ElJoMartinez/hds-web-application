@@ -1,4 +1,4 @@
-<jsp:include page="/includes/header.jsp" />
+<%@ include file="/includes/header.jsp"%>
 
 
 <!-- start the middle column -->
@@ -6,8 +6,8 @@
             <div class="header header-filter"  id="header-img">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-6" id="header_text">
-                            <h1 class="title">Write the best title for your page.</h1>
+                        <div class="col-md-8 col-md-offset-2" id="header_text">
+                            <h1 class="title text-center">Welcome to Home Design Solutions</h1>
                             <h4>Every landing page needs a small description after the big bold title, that's why we added this text here. Add here all the information that can make you or your product create the first impression.</h4>
                             <br />
 
@@ -149,4 +149,4 @@
 <!-- end the middle column -->
 
 
-<jsp:include page="/includes/footer.jsp" />
+<%@ include file="/includes/footer.jsp" %>

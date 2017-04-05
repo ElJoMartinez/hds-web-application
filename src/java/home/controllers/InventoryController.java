@@ -61,8 +61,9 @@ public class InventoryController extends HttpServlet {
     // Method returns in a response the url to the inventory jsp
     private String showInventory(HttpServletRequest request,
             HttpServletResponse response) {
-        
-        String url = "/inventory/index.jsp";
+        List<Product> products = ProductDB.selectProducts();
+        request.setAttribute("products", products);
+        String url = "/inv/index.jsp";
         return url;
     }
     

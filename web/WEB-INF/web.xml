@@ -27,7 +27,7 @@
     <!-- servlet mappings -->
     <servlet-mapping>
         <servlet-name>InventoryController</servlet-name>
-        <url-pattern>/inv/</url-pattern>
+        <url-pattern>/inventory/*</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
         <servlet-name>UserController</servlet-name>

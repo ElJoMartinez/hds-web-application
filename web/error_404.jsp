@@ -3,7 +3,7 @@
 
 <!-- start the middle column -->
     <div class="wrapper">
-            <div class="header header-filter"  id="header-img">
+            <div class="header header-filter"  id="header-img404">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-8 col-md-offset-2" id="header_text">
@@ -17,4 +17,3 @@
             </div>	
         </div>
 
-<jsp:include page="/includes/footer.jsp" />

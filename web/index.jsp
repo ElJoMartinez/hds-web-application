@@ -8,9 +8,6 @@
                     <div class="row">
                         <div class="col-md-8 col-md-offset-2" id="header_text">
                             <h1 class="title text-center">Welcome to Home Design Solutions</h1>
-                            <h4>Every landing page needs a small description after the big bold title, that's why we added this text here. Add here all the information that can make you or your product create the first impression.</h4>
-                            <br />
-
                         </div>
                     </div>
                 </div>

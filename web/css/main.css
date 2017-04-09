@@ -52,7 +52,8 @@ font-family: 'Quicksand', sans-serif;
     color: #FF992C;
 }
 
-footer a, footer a:hover, .navbar .navbar-nav > li > a:hover, .navbar .navbar-nav > li > a:focus{
+footer a, footer a:hover, .navbar .navbar-nav > li > a:hover, .navbar .navbar-nav > li > a:focus, 
+#brand:hover{
     color: #FF992C;
 }
 
@@ -64,4 +65,11 @@ footer a, footer a:hover, .navbar .navbar-nav > li > a:hover, .navbar .navbar-na
 #mapouter {
     margin-top: 50px;
     margin-bottom: 50px;
+}
+
+#build {
+    color: #00003C;
+}
+#consultation {
+    color: #FF992C;
 }

@@ -28,7 +28,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="/">
+                    <a class="navbar-brand" href="/" id="brand">
                         <div class="logo">
                             <img alt ="logo" src="<c:url value='/images/hdslogo.png'/>" width='60' height='60' />
                             <p>Home Design Solutions</p>
@@ -61,6 +61,11 @@
                         <li>
                             <a href="<c:url value='/services.jsp' />">
                                 Services
+                            </a>
+                        </li>
+                        <li>
+                            <a href="<c:url value='/partners.jsp' />">
+                                Partners
                             </a>
                         </li>
                     </ul>

@@ -68,8 +68,11 @@ footer a, footer a:hover, .navbar .navbar-nav > li > a:hover, .navbar .navbar-na
 }
 
 #build {
-    color: #00003C;
+    color: #FF992C;
 }
 #consultation {
-    color: #FF992C;
+    color: #00003C;
+}
+#delivery {
+    color: #00B83C;
 }

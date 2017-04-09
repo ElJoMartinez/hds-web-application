@@ -8,6 +8,8 @@
                     <div class="row">
                         <div class="col-md-8 col-md-offset-2" id="header_text">
                             <h1 class="title text-center">Welcome to Home Design Solutions</h1>
+                            <h3 class="text-center"> The Leading Home Remodeling Company in The South Western Region
+                                of The U.S.</h3>
                         </div>
                     </div>
                 </div>

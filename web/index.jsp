@@ -6,7 +6,7 @@
             <div class="header header-filter"  id="header-img">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-8 col-md-offset-2" id="header_text">
+                        <div class="col-md-12 " id="header_text">
                             <h1 class="title text-center">Welcome to Home Design Solutions</h1>
                             <h3 class="text-center"> The Leading Home Remodeling Company in The South Western Region
                                 of The U.S.</h3>
@@ -19,9 +19,11 @@
         <div class="container">
             <div class="section text-center section-landing">
                 <div class="row">
-                    <div class="col-md-8 col-md-offset-2">
-                        <h2 class="title">Let's talk product</h2>
-                        <h5 class="description">This is the paragraph where you can write more details about your product. Keep you user engaged by providing meaningful information. Remember that by this time, the user is curious, otherwise he wouldn't scroll to get here. Add a button if you want the user to see more.</h5>
+                    <div class="col-md-6 col-md-offset-3">
+                        <h2 class="title">Our Specialties</h2>
+                        <h5 class="description"> Home Design Solutions offers the southwest region
+                                                 of the United States with expert consultation,
+                                                 construction, design and remodeling services.</h5>
                     </div>
                 </div>
 
@@ -29,19 +31,19 @@
                     <div class="row">
                         <div class="col-md-4">
                             <div class="info">
-                                <div class="icon icon-primary">
-                                    <i class="material-icons">chat</i>
+                                <div class="icon icon-primary" id="build">
+                                    <i class="material-icons">build</i>
                                 </div>
-                                <h4 class="info-title">First Feature</h4>
+                                <h4 class="info-title">Remodeling</h4>
                                 <p>Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough.</p>
                             </div>
                         </div>
                         <div class="col-md-4">
                             <div class="info">
-                                <div class="icon icon-success">
-                                    <i class="material-icons">verified_user</i>
+                                <div class="icon icon-success" id="consultation">
+                                    <i class="material-icons">description</i>
                                 </div>
-                                <h4 class="info-title">Second Feature</h4>
+                                <h4 class="info-title">Consultation</h4>
                                 <p>Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough.</p>
                             </div>
                         </div>

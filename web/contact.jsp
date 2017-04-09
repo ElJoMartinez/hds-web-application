@@ -17,7 +17,7 @@
 </div>
 <div class="main main-raised" id="main-raised">
     <div class="container">
-        <div id="mapouter" class="col-md-8 col-md-offset-2">
+        <div id="mapouter" class="col-md-8">
             <div id="gmap_canvas"><iframe width="600" height="500" frameborder="0" scrolling="no" marginheight="0" src="https://maps.google.com/maps?q= Phoenix, AZ 85001, &t=&z=12&ie=UTF8&iwloc=&output=embed" marginwidth="0">
 
                 </iframe>
@@ -26,6 +26,9 @@
             <style>
                 #gmap_canvas{height:500px;width:600px;}#mapouter{overflow:hidden;height:500px;width:600px;}
             </style>
+        </div>
+        <div class="col-md-4" id="maptext">
+            <h3>Phoenix Location</h3>
         </div>
     </div>
 </div>

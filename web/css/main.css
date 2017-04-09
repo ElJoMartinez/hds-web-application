@@ -76,3 +76,6 @@ footer a, footer a:hover, .navbar .navbar-nav > li > a:hover, .navbar .navbar-na
 #delivery {
     color: #00B83C;
 }
+#maptext {
+    margin-top: 20px;
+}

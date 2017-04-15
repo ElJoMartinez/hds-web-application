@@ -7,7 +7,8 @@
         <title>Home Design Solutions</title>
         <link rel="shortcut icon" href="<c:url value='icons/favicon.ico'/>">
         <link rel="stylesheet" href="<c:url value='/css/bootstrap.min.css'/>"  type="text/css">
-        <link rel="stylesheet" href="<c:url value='/css/material-kit.css'/>"  type="text/css"> 
+        <link rel="stylesheet" href="<c:url value='/css/material-kit.css'/>"  type="text/css">
+        <link rel="stylesheet" href="<c:url value='/css/login-register.css' />" type="text/css">
         <link rel="stylesheet" href="<c:url value='/css/main.css'/>"  type="text/css">
         <link href="https://fonts.googleapis.com/css?family=Cantarell|Old+Standard+TT|Quicksand:500" rel="stylesheet">
         <link rel="stylesheet" href="<c:url value='https://fonts.googleapis.com/icon?family=Material+Icons'/>" />
@@ -66,6 +67,11 @@
                         <li>
                             <a href="<c:url value='/partners.jsp' />">
                                 Partners
+                            </a>
+                        </li>
+                        <li>
+                            <a href="<c:url value='/login.jsp' />">
+                                Login
                             </a>
                         </li>
                     </ul>

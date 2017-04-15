@@ -79,3 +79,37 @@ footer a, footer a:hover, .navbar .navbar-nav > li > a:hover, .navbar .navbar-na
 #maptext {
     margin-top: 20px;
 }
+
+#header-img-login {
+    min-height: 800px;
+    background-image: url('../images/login-header.jpg');
+}
+
+#login-footer {
+    margin-top: -100px;
+    color: white;
+    text-align: center;
+}
+
+#login-card {
+    margin-top: 200px;
+    min-height: 400px;
+}
+
+#card-head, #card-head h4{
+    background-color:#FF992c;
+    color: white;
+}
+
+#input {
+    width: 90%;
+}
+
+#card-content {
+    width: auto;
+    padding-top: 50px;
+}
+
+#username {
+    width: 200px;
+}

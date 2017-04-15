@@ -19,7 +19,7 @@ import javax.persistence.*;
 public class Product implements Serializable {
     
     @Id // primary key
-    @Column(name = "PRODUCTID", nullable = false)
+    @Column(name = "ProductID", nullable = false)
     @GeneratedValue(strategy = GenerationType.AUTO)
     private long productId;
     

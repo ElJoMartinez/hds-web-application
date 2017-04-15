@@ -1,17 +1,19 @@
-<%-- 
-    Document   : error_java
-    Created on : Mar 6, 2017, 10:27:40 PM
-    Author     : toillezenitram
---%>
+<jsp:include page="/includes/header.jsp" />
 
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
-    </head>
-    <body>
-        <h1>Hello java error!</h1>
-    </body>
-</html>
+
+<!-- start the middle column -->
+    <div class="wrapper">
+            <div class="header header-filter"  id="header-img404">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2" id="header_text">
+                            <h1 class="title text-center">ERROR Java</h1>
+                            <h4 class="text-center">Something went wrong on the server side. MASSIVE JAVA ERROR!</h4>
+                            <br />
+
+                        </div>
+                    </div>
+                </div>
+            </div>	
+        </div>
+

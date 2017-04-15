@@ -9,7 +9,7 @@ font-family: 'Quicksand', sans-serif;
 }
 
 #header_text h1{
-    margin-top: 150px;
+    margin-top: 170px;
     color: white;
     text-shadow: 3px 3px 0px #000;
     
@@ -112,4 +112,26 @@ footer a, footer a:hover, .navbar .navbar-nav > li > a:hover, .navbar .navbar-na
 
 #username {
     width: 200px;
+}
+
+#icon-image img{
+    width: 300px;
+    height: 300px;
+    margin-top: -270px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#faq-icon  img{
+    margin-top: -200px;
+    width: 300px;height: 300px;
+    margin-left: auto; margin-right: auto;
+    border-color: white;
+    border-style: solid;
+    border-width: 5px;
+}
+
+#login-button {
+    margin-left: auto;
+    margin-right: auto;
 }

@@ -22,7 +22,7 @@
                                     </span>
                                     <input type="text" class="form-control" placeholder="Password..." >
                                 </div> 
-                                <input type="submit" value="Login">
+                                <input type="submit" value="Login" class="btn-primary" id="login-button">
                             </div>
                         </form>
                     </div>

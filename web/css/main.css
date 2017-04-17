@@ -131,7 +131,8 @@ footer a, footer a:hover, .navbar .navbar-nav > li > a:hover, .navbar .navbar-na
     border-width: 5px;
 }
 
-#login-button {
-    margin-left: auto;
-    margin-right: auto;
+#login-button, #login-button:hover{
+   margin-left: 36%;
+   background-color: #FF992C;
 }
+

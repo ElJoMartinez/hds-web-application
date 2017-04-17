@@ -22,7 +22,7 @@
                                     </span>
                                     <input name="j_password" type="password" class="form-control" placeholder="Password..." >
                                 </div> 
-                                <input type="submit" value="Login" class="btn-primary" id="login-button">
+                                <button type="submit"  class=" btn btn-default" id="login-button">Login</button>
                             </div>
                         </form>
                     </div>

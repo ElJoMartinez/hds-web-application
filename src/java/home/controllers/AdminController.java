@@ -23,6 +23,76 @@ import org.apache.poi.ss.usermodel.Workbook;
 import home.business.*;
 import home.data.*;
 import static home.data.ProductDB.selectProducts;
-public class AdminController {
+public class AdminController extends HttpServlet {
+    
+    @Override
+    public void doPost(HttpServletRequest request,
+            HttpServletResponse response)
+            throws IOException, ServletException {
+
+        String requestURI = request.getRequestURI();
+        String url = "/admin";
+        if (requestURI.endsWith("/displayInvoices")) {
+            url = displaySalesRecords(request, response);
+        } else if (requestURI.endsWith("/processInvoice")) {
+            url = processSalesRecord(request, response);
+        } else if (requestURI.endsWith("/displayReport")) {
+            displayReport(request, response);
+        } else if (requestURI.endsWith("/displayInvoices2")) {
+            url = displaySalesRecords(request, response);
+        } else if (requestURI.endsWith("/productMaintanence")) {
+            url = displayProducts(request, response);
+        }
+        getServletContext()
+                .getRequestDispatcher(url)
+                .forward(request, response);
+    }
+    
+    @Override
+    public void doGet(HttpServletRequest request,
+            HttpServletResponse response)
+            throws IOException, ServletException {
+
+        String requestURI = request.getRequestURI();
+        String url = "/admin";
+        if (requestURI.endsWith("/displayInvoice")) {
+            url = displaySalesRecords(request, response);
+        } else if (requestURI.endsWith("/displayInvoices")) {
+            url = displaySalesRecords(request, response);
+        } else if (requestURI.endsWith("/productMaintanence")) {
+            url = displayProducts(request, response);
+        }
+
+        getServletContext()
+                .getRequestDispatcher(url)
+                .forward(request, response);
+    }
+    
+    private String displaySalesRecords(HttpServletRequest request,
+            HttpServletResponse response) {
+     
+        String url;
+        url = "/admin/salesrecords.jsp";
+        return url;
+    }
+    
+    private String processSalesRecord(HttpServletRequest request,
+            HttpServletResponse response) {
+        String url;
+        url = "/adminController/displaySalesRecords";
+        return url;
+    }
+    
+    private void displayReport(HttpServletRequest request,
+            HttpServletResponse response)  {
+        
+    }
+    
+    private String displayProducts(HttpServletRequest request,
+            HttpServletResponse response) throws IOException {
+        String url;
+        url = "/admin/index.jsp";
+        return url;
+    }
     
 }

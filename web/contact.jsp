@@ -30,6 +30,52 @@
         <div class="col-md-4" id="maptext">
             <h3>Phoenix Location</h3>
         </div>
+        
+        
+        
+        <div class="section landing-section">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <h2 class="text-center title">Send us a Message</h2>
+                    <h4 class="text-center description"> 
+                        If you have any questions and need to reach us
+                        through email, please fill in your name, email address
+                        and your message  below. We generally respond
+                        within 24 hours of our initial receipt of your message.
+                    </h4>
+                    <form class="contact-form">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group label-floating">
+                                    <label class="control-label">Your Name</label>
+                                    <input type="email" class="form-control">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group label-floating">
+                                    <label class="control-label">Your Email</label>
+                                    <input type="email" class="form-control">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group label-floating">
+                            <label class="control-label">Your Messge</label>
+                            <textarea class="form-control" rows="4"></textarea>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-4 col-md-offset-4 text-center">
+                                <button class="btn btn-default btn-raised" id='btn'>
+                                    Send Message
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+        </div>
     </div>
 </div>
 <!-- end the middle column -->

@@ -81,7 +81,7 @@ footer a, footer a:hover, .navbar .navbar-nav > li > a:hover, .navbar .navbar-na
 }
 
 #header-img-login {
-    min-height: 800px;
+    min-height: 700px;
     background-image: url('../images/login-header.jpg');
 }
 
@@ -93,7 +93,7 @@ footer a, footer a:hover, .navbar .navbar-nav > li > a:hover, .navbar .navbar-na
 
 #login-card {
     margin-top: 200px;
-    min-height: 400px;
+    min-height: 300px;
 }
 
 #card-head, #card-head h4{
@@ -107,7 +107,7 @@ footer a, footer a:hover, .navbar .navbar-nav > li > a:hover, .navbar .navbar-na
 
 #card-content {
     width: auto;
-    padding-top: 50px;
+    padding-top: 40px;
 }
 
 #username {
@@ -134,5 +134,9 @@ footer a, footer a:hover, .navbar .navbar-nav > li > a:hover, .navbar .navbar-na
 #login-button, #login-button:hover{
    margin-left: 36%;
    background-color: #FF992C;
+}
+
+#btn, #btn:hover {
+    background-color:#FF992C;
 }
 

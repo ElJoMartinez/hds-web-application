@@ -18,7 +18,9 @@
 <div class="main main-raised" id="main-raised">
     <div class="container">
         
-        
+        <p>
+            Hello from services page 
+        </p>
     </div>
 </div>
 <!-- end the middle column -->

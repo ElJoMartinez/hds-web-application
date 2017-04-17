@@ -1,4 +1,4 @@
-<jsp:include page="/includes/header.jsp" />
+<%@ include file="/includes/header.jsp"%>
 
 
 <!-- start the middle column -->
@@ -17,13 +17,13 @@
 </div>
 <div class="main main-raised" id="main-raised">
     <div class="container">
-        
+        <p>HEllo from our partners</p>
         
     </div>
 </div>
 <!-- end the middle column -->
 
 
-<jsp:include page="/includes/footer.jsp" />
+<%@ include file="/includes/footer.jsp"%>
 
 

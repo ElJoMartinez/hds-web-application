@@ -28,6 +28,11 @@
                         Services 
                     </a>
                 </li>
+                <li>
+                    <a href="/partners.jsp">
+                        Partners 
+                    </a>
+                </li>
             </ul>
         </nav>
         <div class="copyright pull-right">

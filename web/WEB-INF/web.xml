@@ -22,6 +22,10 @@
         <servlet-name>UserController</servlet-name>
         <servlet-class>home.controllers.UserController</servlet-class>
     </servlet>
+     <servlet>
+        <servlet-name>AdminController</servlet-name>
+        <servlet-class>music.controllers.AdminController</servlet-class>
+    </servlet>
     
    
     <!-- servlet mappings -->
@@ -32,6 +36,10 @@
     <servlet-mapping>
         <servlet-name>UserController</servlet-name>
         <url-pattern>/user/*</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>AdminController</servlet-name>
+        <url-pattern>/admincontroller/*</url-pattern>
     </servlet-mapping>
 
     <!-- define a servlet context listener -->

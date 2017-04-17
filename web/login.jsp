@@ -14,13 +14,13 @@
                                     <span class="input-group-addon">
                                         <i class="material-icons">face</i>
                                     </span>
-                                    <input type="text" class="form-control" placeholder="Username..." >
+                                    <input name="j_username" type="text" class="form-control" placeholder="Username..." >
                                 </div>  
                                 <div class="input-group" id="input">
                                     <span class="input-group-addon">
                                         <i class="material-icons">lock</i>
                                     </span>
-                                    <input type="text" class="form-control" placeholder="Password..." >
+                                    <input name="j_password" type="password" class="form-control" placeholder="Password..." >
                                 </div> 
                                 <input type="submit" value="Login" class="btn-primary" id="login-button">
                             </div>

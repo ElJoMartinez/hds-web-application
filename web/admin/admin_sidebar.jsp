@@ -5,7 +5,7 @@
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
-<div class="sidebar" data-color="blue" data-image="../assets/img/sidebar-1.jpg">
+<div class="sidebar" data-color="blue" data-image="/images/sidebar-1.jpg">
     <!--
 Tip 1: You can change the color of the sidebar using: data-color="purple | blue | green | orange | red"
 Tip 2: you can also add an image using data-image tag
@@ -13,8 +13,8 @@ Tip 2: you can also add an image using data-image tag
     -->
 
     <div class="logo">
-        <a href="http://www.creative-tim.com" class="simple-text">
-            Creative Tim
+        <a href="/admin/index.jsp" class="simple-text">
+            Welcome Admin
         </a>
     </div>
 

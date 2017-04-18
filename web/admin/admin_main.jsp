@@ -3,8 +3,6 @@
     Created on : Mar 11, 2017, 4:32:23 PM
     Author     : toillezenitram
 --%>
-
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <div class="main-panel">
     <nav class="navbar navbar-transparent navbar-absolute">
         <div class="container-fluid">
@@ -86,7 +84,7 @@
                                     </tr>
                                     <tr>
                                         <td>Minerva Hooper</td>
-                                        <td>CuraÃ§ao</td>
+                                        <td>Curaçao</td>
                                         <td>Sinaai-Waas</td>
                                         <td class="text-primary">$23,789</td>
                                     </tr>
@@ -105,7 +103,7 @@
                                     <tr>
                                         <td>Doris Greene</td>
                                         <td>Malawi</td>
-                                        <td>Feldkirchen in KÃ¤rnten</td>
+                                        <td>Feldkirchen in Kärnten</td>
                                         <td class="text-primary">$63,542</td>
                                     </tr>
                                     <tr>
@@ -148,7 +146,7 @@
                                         <td>2</td>
                                         <td>Minerva Hooper</td>
                                         <td>$23,789</td>
-                                        <td>CuraÃ§ao</td>
+                                        <td>Curaçao</td>
                                         <td>Sinaai-Waas</td>
                                     </tr>
                                     <tr>
@@ -170,7 +168,7 @@
                                         <td>Doris Greene</td>
                                         <td>$63,542</td>
                                         <td>Malawi</td>
-                                        <td>Feldkirchen in KÃ¤rnten</td>
+                                        <td>Feldkirchen in Kärnten</td>
                                     </tr>
                                     <tr>
                                         <td>6</td>
@@ -187,3 +185,4 @@
             </div>
         </div>
     </div>
+    <%@include file="/admin/admin_footer.jsp" %>

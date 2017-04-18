@@ -31,7 +31,7 @@
                     </button>
                     <a class="navbar-brand" href="/" id="brand">
                         <div class="logo">
-                            <img alt ="logo" src="<c:url value='/images/hdslogo.png'/>" width='60' height='60' />
+                            <img alt ="logo" src="<c:url value='/images/hdslogo.png'/>" width='48' height='48' />
                             <p>Home Design Solutions</p>
                         </div>
                     </a>

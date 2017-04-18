@@ -70,7 +70,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="<c:url value='/login.jsp' />">
+                            <a href="<c:url value='/admin/index.jsp' />">
                                 Login
                             </a>
                         </li>

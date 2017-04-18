@@ -40,20 +40,20 @@
                             <div class="col-md-6">
                                 <div class="form-group label-floating">
                                     <label class="control-label">Your Name</label>
-                                    <input type="email" class="form-control">
+                                    <input type="text" class="form-control" required>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group label-floating">
                                     <label class="control-label">Your Email</label>
-                                    <input type="email" class="form-control">
+                                    <input type="email" class="form-control" required>
                                 </div>
                             </div>
                         </div>
 
                         <div class="form-group label-floating">
                             <label class="control-label">Your Messge</label>
-                            <textarea class="form-control" rows="4"></textarea>
+                            <textarea class="form-control" rows="4" required></textarea>
                         </div>
 
                         <div class="row">

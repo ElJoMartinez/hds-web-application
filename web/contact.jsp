@@ -17,6 +17,12 @@
 </div>
 <div class="main main-raised" id="main-raised">
     <div class="container">
+         <div class="profile" id="faq-icon" >
+            <div class="avatar" >
+                <img src="/images/contact-icon.png" alt="Circle Image" class="img-circle img-responsive img-raised">
+            </div>
+
+        </div>
         <div id="mapouter" class="col-md-8">
             <div id="gmap_canvas"><iframe width="600" height="500" frameborder="0" scrolling="no" marginheight="0" src="https://maps.google.com/maps?q= Phoenix, AZ 85001, &t=&z=12&ie=UTF8&iwloc=&output=embed" marginwidth="0">
 

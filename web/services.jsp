@@ -17,10 +17,12 @@
 </div>
 <div class="main main-raised" id="main-raised">
     <div class="container">
-        
-        <p>
-            Hello from services page 
-        </p>
+        <div class="profile" id="faq-icon" >
+            <div class="avatar" >
+                <img src="/images/service-icon.png" alt="Circle Image" class="img-circle img-responsive img-raised">
+            </div>
+
+        </div>
     </div>
 </div>
 <!-- end the middle column -->

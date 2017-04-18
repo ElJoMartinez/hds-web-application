@@ -5,7 +5,7 @@
     <head>
         <meta charset="utf-8">
         <title>Home Design Solutions</title>
-        <link rel="shortcut icon" href="<c:url value='icons/favicon.ico'/>">
+        <link rel="shortcut icon" href="<c:url value='/images/favicon.ico'/>">
         <link rel="stylesheet" href="<c:url value='/css/bootstrap.min.css'/>"  type="text/css">
         <link rel="stylesheet" href="<c:url value='/css/material-kit.css'/>"  type="text/css">
         <link rel="stylesheet" href="<c:url value='/css/login-register.css' />" type="text/css">

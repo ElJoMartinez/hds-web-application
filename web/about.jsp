@@ -8,8 +8,7 @@
             <div class="row">
                 <div class="col-md-8 col-md-offset-2" id="header_text">
                     <h1 class="title text-center">About Us</h1>
-
-                    <br />
+                   
 
                 </div>
                 
@@ -30,88 +29,42 @@
             </div>
             <div class="row">
                 <div class="col-md-8 col-md-offset-2">
-                    <h2 class="title">Let's talk product</h2>
-                    <h5 class="description">This is the paragraph where you can write more details about your product. Keep you user engaged by providing meaningful information. Remember that by this time, the user is curious, otherwise he wouldn't scroll to get here. Add a button if you want the user to see more.</h5>
+                    <h2 class="title">Where it all began</h2>
+                    <h5 class="description">
+                        Beginning as a small remodeling company, 
+                        husband and wife Emily and Joe started Home Design 
+                        Solutions back in 2005. Starting off small, they were 
+                        contracted to do work for family and friends that wanted 
+                        to upgrade their homes, specifically Bathrooms and Kitchens. T
+                        he remodeling of kitchens and bathrooms included taking 
+                        measurements and designing new and improved kitchen and 
+                        bathroom layouts. </h5>
+                    <h5 class="description">
+                       This was the AHA moment for Emily and Joe in that they were 
+                       able to easily determine that there was an enormous demand  
+                       for the type of service they were offering for the greater 
+                       Phoenix/Scottsdale, Arizona area.  
+                    </h5>
+                    <h5 class="description">
+                        After applying and receiving a business license, 
+                        Home Design Solutions was officially Emily and Joe?s as 
+                        a sole proprietorship operating out of a small store front 
+                        they rented at 101 Sedalia Drive, Phoenix, Arizona. 
+                        The very first location included some example cabinets and 
+                        appliances that they would eventually become regional 
+                        distributors for. Being general contractors since 2003, 
+                        both Joe and Emily, since then, have hired bath and kitchen 
+                        design specialist that have all obtained their own kitchen and 
+                        bath design certifications. 
+                    </h5>
+                    
                 </div>
             </div>
 
-            <div class="features">
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="info">
-                            <div class="icon icon-primary">
-                                <i class="material-icons">chat</i>
-                            </div>
-                            <h4 class="info-title">First Feature</h4>
-                            <p>Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="info">
-                            <div class="icon icon-success">
-                                <i class="material-icons">verified_user</i>
-                            </div>
-                            <h4 class="info-title">Second Feature</h4>
-                            <p>Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="info">
-                            <div class="icon icon-danger">
-                                <i class="material-icons">fingerprint</i>
-                            </div>
-                            <h4 class="info-title">Third Feature</h4>
-                            <p>Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            
         </div>
 
-        <div class="section text-center">
-            <h2 class="title">Here is our team</h2>
-
-            <div class="team">
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="team-player">
-                            <img src="/images/avatar.jpg" alt="Thumbnail Image" class="img-raised img-circle">
-                            <h4 class="title">Gigi Hadid <br />
-                                <small class="text-muted">Model</small>
-                            </h4>
-                            <p class="description">You can write here details about one of your team members. You can give more details about what they do. Feel free to add some <a href="#">links</a> for people to be able to follow them outside the site.</p>
-                            <a href="#pablo" class="btn btn-simple btn-just-icon"><i class="fa fa-twitter"></i></a>
-                            <a href="#pablo" class="btn btn-simple btn-just-icon"><i class="fa fa-instagram"></i></a>
-                            <a href="#pablo" class="btn btn-simple btn-just-icon btn-default"><i class="fa fa-facebook-square"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="team-player">
-                            <img src="../assets/img/christian.jpg" alt="Thumbnail Image" class="img-raised img-circle">
-                            <h4 class="title">Christian Louboutin<br />
-                                <small class="text-muted">Designer</small>
-                            </h4>
-                            <p class="description">You can write here details about one of your team members. You can give more details about what they do. Feel free to add some <a href="#">links</a> for people to be able to follow them outside the site.</p>
-                            <a href="#pablo" class="btn btn-simple btn-just-icon"><i class="fa fa-twitter"></i></a>
-                            <a href="#pablo" class="btn btn-simple btn-just-icon"><i class="fa fa-linkedin"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="team-player">
-                            <img src="../assets/img/kendall.jpg" alt="Thumbnail Image" class="img-raised img-circle">
-                            <h4 class="title">Kendall Jenner<br />
-                                <small class="text-muted">Model</small>
-                            </h4>
-                            <p>You can write here details about one of your team members. You can give more details about what they do. Feel free to add some <a href="#">links</a> for people to be able to follow them outside the site.</p>
-                            <a href="#pablo" class="btn btn-simple btn-just-icon"><i class="fa fa-google-plus"></i></a>
-                            <a href="#pablo" class="btn btn-simple btn-just-icon"><i class="fa fa-youtube-play"></i></a>
-                            <a href="#pablo" class="btn btn-simple btn-just-icon btn-default"><i class="fa fa-twitter"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
+        
 
 
         

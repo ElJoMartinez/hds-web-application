@@ -23,6 +23,11 @@
             </div>
 
         </div>
+        <!-- here starts the display of partner brand logos
+             with a brief description attached to it -->
+        <div class="section col-md-3">
+            <h3>
+        </div>
     </div>
 </div>
 <!-- end the middle column -->

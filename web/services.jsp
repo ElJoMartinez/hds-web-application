@@ -3,7 +3,7 @@
 
 <!-- start the middle column -->
 <div class="wrapper">
-    <div class="header header-filter"  id="header-img">
+    <div class="header header-filter"  id="header-img-services">
         <div class="container">
             <div class="row" id="headerRow">
                 <div class="col-md-12 text-center" id="header_text">

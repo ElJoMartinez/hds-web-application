@@ -4,7 +4,7 @@
 */
 
 body {
-font-family: 'Quicksand', sans-serif;
+    font-family: 'Quicksand', sans-serif;
 
 }
 
@@ -12,8 +12,8 @@ font-family: 'Quicksand', sans-serif;
     margin-top: 170px;
     color: white;
     text-shadow: 3px 3px 0px #000;
-    
-    
+
+
 }
 #header_text h3 {
     color: white;
@@ -32,19 +32,19 @@ font-family: 'Quicksand', sans-serif;
 
 .logo p {
     display: inline;
-    
+
 }
 .logo {
-  margin-top: -15px;  
+    margin-top: -15px;  
 }
 
 .main-raised {
-   
+
 }
 #faq {
     text-align: center;
     margin-top: 200px;
- 
+
 }
 
 
@@ -126,12 +126,12 @@ footer a, footer a:hover, .navbar .navbar-nav > li > a:hover, .navbar .navbar-na
     margin-top: -200px;
     width: 300px;height: 300px;
     margin-left: auto; margin-right: auto;
-   
+
 }
 
 #login-button, #login-button:hover{
-   margin-left: 36%;
-   background-color: #FF992C;
+    margin-left: 36%;
+    background-color: #FF992C;
 }
 
 #btn, #btn:hover {
@@ -187,11 +187,17 @@ footer a, footer a:hover, .navbar .navbar-nav > li > a:hover, .navbar .navbar-na
     }
     .collapsing {
         overflow: hidden!important;
-    }
-    
-    #logo-partner{
-       margin-left: auto;
-       margin-right: auto;
-       
-    }
+    }   
+}
+/*
+ *  END: Trying to configure navbar to collapse correctly
+ */
+#logo-partner{
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#header-img-services {
+    min-height: 500px;
+    background-image: url('../images/services.jpg');
 }

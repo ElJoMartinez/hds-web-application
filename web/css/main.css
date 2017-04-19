@@ -188,4 +188,10 @@ footer a, footer a:hover, .navbar .navbar-nav > li > a:hover, .navbar .navbar-na
     .collapsing {
         overflow: hidden!important;
     }
+    
+    #logo-partner{
+       margin-left: auto;
+       margin-right: auto;
+       
+    }
 }

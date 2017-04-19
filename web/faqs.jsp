@@ -129,6 +129,7 @@
                         The retainer is then credited in full to the final cost of
                         the job.
                     </p>
+                    <hr>
                     <h3>
                         Do you do major remodeling? 
                     </h3>
@@ -138,6 +139,7 @@
                         quality, full-line remodeling firms for those jobs that 
                         require major structural renovation.
                     </p>
+                    <hr>
                     <h3>
                         Do you provide cabinets for remodeling only, or also for new
                         construction?

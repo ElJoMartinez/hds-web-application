@@ -23,9 +23,10 @@
                 <br>
             </div>
         </div>
-        <div class="row">
+        <div class="row rowS">
             <div class="col-md-4">
-                <h2 class="text-center">Design Work</h2>
+                <img src="/images/designs-heading.png" id="image-service" class="img-responsive"/>
+                <h3 class="text-center">Design Work</h3>
                 <h4 class="text-center">
                     The fees associated with designing new and improved
                     bathroom and kitchen remodels include a minimum
@@ -35,7 +36,8 @@
                 </h4>
             </div>
             <div class="col-md-4">
-                <h2 class="text-center">Cabinetry Installation</h2>
+                <img src="/images/cabinet-work.png" id="image-service" class="img-responsive"/>
+                <h3 class="text-center">Cabinetry Installation</h3>
                 <h4 class="text-center">
                     The minimum charge for the installation of cabinets for a
                     kitchen is <strong>$750</strong>. The hourly rate we charge
@@ -43,7 +45,8 @@
                 </h4>
             </div>
             <div class="col-md-4">
-                <h2 class="text-center">Cabinetry Re-facing</h2>
+                <img src="/images/refacing.png" id="image-service" class="img-responsive"/>
+                <h3 class="text-center">Cabinetry Re-facing</h3>
                 <h4 class="text-center">
                     Taking on a similar process in comparison to our
                     cabinetry installation service, we also charge a minimum
@@ -52,9 +55,10 @@
                 </h4>
             </div>
         </div>
-        <div class="row">
+        <div class="row rowS">
             <div class="col-md-4">
-                <h2 class="text-center">Plumbing Work</h2>
+                <img src="/images/plumbing.png" id="image-service" class="img-responsive"/>
+                <h3 class="text-center">Plumbing Work</h3>
                 <h4 class="text-center">
                     The plumbing services we offer generally include
                     bathrooms, kitchens, laundry rooms, or any exterior
@@ -64,7 +68,8 @@
                 </h4>
             </div>
             <div class="col-md-4">
-                <h2 class="text-center">Electrical Work</h2>
+                <img src="/images/electrical.png" id="image-service" class="img-responsive"/>
+                <h3 class="text-center">Electrical Work</h3>
                 <h4 class="text-center">
                     Any and all electrical work that a customer's home
                     may require is similar to the fees of that of plumbing
@@ -74,7 +79,8 @@
                 </h4>
             </div>
             <div class="col-md-4">
-                <h2 class="text-center">Painting / Wallpaper Work</h2>
+                <img src="/images/painting.png" id="image-service" class="img-responsive"/>
+                <h3 class="text-center">Painting / Wallpaper Work</h3>
                 <h4 class='text-center'>
                     We contract to an outside painting contractor 
                     <strong>(AZ Design)</strong>. They charge their customers
@@ -84,9 +90,10 @@
                 </h4>
             </div>
         </div>
-        <div class="row">
-            <div class="col-md-4 col-md-offset-2">
-                <h2 class="text-center">General Construction Work</h2>
+        <div class="row rowS">
+            <div class="col-md-4 col-md-offset-1"> 
+                <img src="/images/construction.png" id="image-service" class="img-responsive"/>
+                <h3 class="text-center">General Construction Work</h3>
                 <h4 class="text-center">
                     The services we offer that is in the category
                     of general construction work includes moving walls,
@@ -95,8 +102,9 @@
                     <strong>$60</strong> per hour for labor.
                 </h4>
             </div>
-            <div class="col-md-4">
-                <h2 class="text-center">Deliveries</h2>
+            <div class="col-md-4 col-md-offset-2">
+                <img src="/images/deliveries.png" id="image-service" class="img-responsive"/>
+                <h3 class="text-center">Deliveries</h3>
                 <h4 class="text-center">
                     Our delivery fees are as follows: <strong>$50</strong> 
                     minimum charge for the 1st piece and then 
@@ -106,7 +114,6 @@
                     at the standard hourly rate of <strong>$85</strong> per hour.
                 </h4>
             </div>
-            
         </div>
     </div>
 </div>

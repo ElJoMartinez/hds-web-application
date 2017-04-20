@@ -201,3 +201,14 @@ footer a, footer a:hover, .navbar .navbar-nav > li > a:hover, .navbar .navbar-na
     min-height: 500px;
     background-image: url('../images/services.jpg');
 }
+
+#image-service {
+    width: 100px;
+    height: 100px;
+   margin: 0 auto;
+}
+
+
+.rowS {
+    padding: 2em;
+}

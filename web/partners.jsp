@@ -28,8 +28,13 @@
         <div class="row">
             <div class=" col-md-4">
                 <h2 class="text-center">Asko</h2>
-                    <img src="/images/askologo.jpg" alt="asko" id="logo-partner" class=" img-responsive "/>
+                <img src="/images/askologo.jpg" alt="asko" id="logo-partner" class=" img-responsive "/>
+                <h4 class="text-center">
+                    
+                </h4>
+                <hr>
             </div>
+            
             <div class=" col-md-4">
                 <h2 class="text-center">Best</h2>
                     <img src="/images/bestlogo.png" alt="best" id="logo-partner" class="img-responsive "/>
@@ -39,7 +44,7 @@
                     <img src="/images/boschlogo.png" alt="bosch" id="logo-partner" class="img-responsive "/>
             </div>
         </div>
-        <hr>
+        
         <div class="row">
             <div class=" col-md-4">
                 <h2 class="text-center">Broan</h2>

@@ -35,7 +35,12 @@
                                     <i class="material-icons">build</i>
                                 </div>
                                 <h4 class="info-title">Remodeling</h4>
-                                <p>Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough.</p>
+                                <p> All of our design associates have kitchen
+                                    and bath design certifications which provide
+                                    our customers with "top notch" measurements
+                                    and design recommendations.
+                                
+                                </p>
                             </div>
                         </div>
                         <div class="col-md-4">
@@ -44,7 +49,13 @@
                                     <i class="material-icons">description</i>
                                 </div>
                                 <h4 class="info-title">Consultation</h4>
-                                <p>Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough.</p>
+                                <p> Whether our customers have a design vision
+                                    or if they simply do not know where to begin,
+                                    our staff with provide expert consultation
+                                    services that will ensure our customers
+                                    get the products and designs they desire.
+                                
+                                </p>
                             </div>
                         </div>
                         <div class="col-md-4">
@@ -53,7 +64,15 @@
                                     <i class="material-icons">local_shipping</i>
                                 </div>
                                 <h4 class="info-title">Warehousing and Deliveries</h4>
-                                <p>Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough.</p>
+                                <p> Most of the appliances and bathroom fixtures
+                                    are drop shipped (if possible) by the supplier
+                                    directly to the job site. If this cannot be done
+                                    they are delivered to the store and held in
+                                    our warehouse until they are ready for 
+                                    delivery and installation. In some cases, 
+                                    items are stored in the client's garage if 
+                                    their order is paid in full.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -63,20 +82,20 @@
             <div class="section text-center">
                 <h2 class="title">Come and Visit One of Our Locations</h2>
 
-                <div class="team">
+                <div class="team-player">
                     <div class="row">
                         <div class="col-md-4">
                             <div class="team-player">
-                                <img src="/images/avatar.jpg" alt="Thumbnail Image" class="img-raised img-circle">
+                                <img src="/images/phoenix.png" alt="Thumbnail Image" class="img-responsive" id='img-main'>
                                 <h4 class="title">Phoenix Location <br />
                                     <small class="text-muted">Headquarters</small>
                                 </h4>
                                 <p class="description">You can write here details about one of your team members. You can give more details about what they do. Feel free to add some <a href="#">links</a> for people to be able to follow them outside the site.</p>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4 ">
                             <div class="team-player">
-                                <img src="../assets/img/christian.jpg" alt="Thumbnail Image" class="img-raised img-circle">
+                                <img src="/images/scottsdale.png" alt="Thumbnail Image" class="img-responsive" id='img-main'>
                                 <h4 class="title">Scottsdale Location<br />
                                     <small class="text-muted">Store</small>
                                 </h4>
@@ -85,20 +104,20 @@
                             </div>
                         </div>
                         <div class="col-md-4">
-                            <div class="team-player">
-                                <img src="../assets/img/kendall.jpg" alt="Thumbnail Image" class="img-raised img-circle">
+                            <div class="team-player ">
+                                <img src="/images/tucson.gif" alt="Thumbnail Image" class="img-responsive" id='img-main'>
                                 <h4 class="title">Tucson Location<br />
                                     <small class="text-muted">Store</small>
                                 </h4>
-                                <p>You can write here details about one of your team members. You can give more details about what they do. Feel free to add some <a href="#">links</a> for people to be able to follow them outside the site.</p>
+                                <p class='description'>You can write here details about one of your team members. You can give more details about what they do. Feel free to add some <a href="#">links</a> for people to be able to follow them outside the site.</p>
                                 
                             </div>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-md-4 col-md-offset-2">
-                            <div class="team-player">
-                                <img src="/images/avatar.jpg" alt="Thumbnail Image" class="img-raised img-circle">
+                            <div class="team-player ">
+                                <img src="/images/lasvegas.png" alt="Thumbnail Image" class="img-responsive" id='img-main'>
                                 <h4 class="title">Las Vegas Location <br />
                                     <small class="text-muted">Store</small>
                                 </h4>
@@ -107,7 +126,7 @@
                         </div>
                         <div class="col-md-4 ">
                             <div class="team-player">
-                                <img src="/images/avatar.jpg" alt="Thumbnail Image" class="img-raised img-circle">
+                                <img src="/images/albu.png" alt="Thumbnail Image" class="img-responsive" id='img-main'>
                                 <h4 class="title">Albuquerque Location <br />
                                     <small class="text-muted">Store</small>
                                 </h4>

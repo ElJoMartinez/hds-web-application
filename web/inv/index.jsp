@@ -30,8 +30,7 @@
                         <th>Model ID</th>
                         <th>Serial ID</th>
                         <th class="text-center">Description</th>
-                        <th>Cost</th>
-                        <Th>List Price</th>
+                        <th>List Price</th>
                     </tr>
                     <jsp:include page="/includes/product_table.jsp" />
                 </thead>

@@ -212,3 +212,16 @@ footer a, footer a:hover, .navbar .navbar-nav > li > a:hover, .navbar .navbar-na
 .rowS {
     padding: 2em;
 }
+
+
+#img-main {
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 200px;
+}
+
+.equal {
+  display: flex;
+  display: -webkit-flex;
+}

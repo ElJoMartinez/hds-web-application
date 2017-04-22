@@ -11,9 +11,8 @@ Tip 1: You can change the color of the sidebar using: data-color="purple | blue 
 Tip 2: you can also add an image using data-image tag
 
     -->
-
     <div class="logo">
-        <a href="/admincontroller/showCustomers" class="simple-text">
+        <a href="/admincontroller/index.jsp" class="active simple-text">
             Welcome Admin
         </a>
     </div>
@@ -21,8 +20,8 @@ Tip 2: you can also add an image using data-image tag
 
     <div class="sidebar-wrapper">
         <ul class="nav">
-            <li class="active">
-                <a href="dashboard.html">
+            <li>
+                <a href="/admincontroller/showCustomers" >
                     <i class="material-icons">person</i>
                     <p>Customers</p>
                 </a>
@@ -39,36 +38,7 @@ Tip 2: you can also add an image using data-image tag
                     <p>Products</p>
                 </a>
             </li>
-            <li>
-                <a href="typography.html">
-                    <i class="material-icons">library_books</i>
-                    <p>Typography</p>
-                </a>
-            </li>
-            <li>
-                <a href="icons.html">
-                    <i class="material-icons">bubble_chart</i>
-                    <p>Icons</p>
-                </a>
-            </li>
-            <li>
-                <a href="maps.html">
-                    <i class="material-icons">location_on</i>
-                    <p>Maps</p>
-                </a>
-            </li>
-            <li>
-                <a href="notifications.html">
-                    <i class="material-icons text-gray">notifications</i>
-                    <p>Notifications</p>
-                </a>
-            </li>
-            <li class="active-pro">
-                <a href="upgrade.html">
-                    <i class="material-icons">unarchive</i>
-                    <p>Upgrade to PRO</p>
-                </a>
-            </li>
+            
         </ul>
     </div>
 </div>

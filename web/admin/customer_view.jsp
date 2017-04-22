@@ -1,5 +1,5 @@
 <%-- 
-    Document   : admin_main
+    Document   : customer_view.jsp
     Created on : Mar 11, 2017, 4:32:23 PM
     Author     : Elliot Martinez
 --%>
@@ -57,14 +57,6 @@
             </div>
         </div>
     </nav>
-    <div class="content">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-12">
-                    <h2>Main Admin Section</h2>
-                </div>
-            </div>
-        </div>
-    </div>
+    <jsp:include page="/admin/customer_table.jsp" />
     
     <%@include file="/admin/admin_footer.jsp" %>

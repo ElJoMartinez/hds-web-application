@@ -70,7 +70,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="<c:url value='/admincontroller/showCustomers' />">
+                            <a href="<c:url value='/admin' />">
                                 Login
                             </a>
                         </li>

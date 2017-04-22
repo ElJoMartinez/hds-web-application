@@ -93,7 +93,7 @@ public class AdminController extends HttpServlet {
             HttpServletResponse response) throws IOException {
         String url;
         System.out.println("We got here!");
-        url = "/admin/index.jsp";
+        url = "/admin/customer_index.jsp";
         List<Customer> customers = CustomerDB.selectCustomers();
         request.setAttribute("customers", customers);
         return url;

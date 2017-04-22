@@ -14,48 +14,43 @@
                         Home
                     </a>
                 </li>
-                <li>
-                    <a href="#">
-                        Company
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        Portfolio
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        Blog
-                    </a>
-                </li>
-            </ul>
-        </nav>
-        <p class="copyright pull-right">
-            &copy; <script>document.write(new Date().getFullYear())</script> <a href="http://www.creative-tim.com">Creative Tim</a>, made with love for a better web
-        </p>
-    </div>
-</footer>
+                </div>
+                </footer>
 
-</div>
-</div>
-</body>
+                </div>
+                </div>
+                
+                </body>
 
-<!--   Core JS Files   -->
-<script src="/js/jquery-3.1.0.min.js" type="text/javascript"></script>
-<script src="/js/bootstrap.min.js" type="text/javascript"></script>
-<script src="/js/material.min.js" type="text/javascript"></script>
+                <!--   Core JS Files   -->
+                <script src="/js/jquery-3.1.0.min.js" type="text/javascript">
+                    $(document).ready(function () {
+    $('.nav li a').click(function(e) {
 
-<!--  Charts Plugin -->
-<script src="/js/chartist.min.js"></script>
+        $('.nav li').removeClass('active');
 
-<!--  Notifications Plugin    -->
-<script src="/js/bootstrap-notify.js"></script>
+        var $parent = $(this).parent();
+        if (!$parent.hasClass('active')) {
+            $parent.addClass('active');
+        }
+        e.preventDefault();
+    });
+});
 
-<!--  Google Maps Plugin    -->
-<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
+                </script>
+                <script src="/js/bootstrap.min.js" type="text/javascript"></script>
+                <script src="/js/material.min.js" type="text/javascript"></script>
 
-<!-- Material Dashboard javascript methods -->
-<script src="/js/material-dashboard.js"></script>
+                <!--  Charts Plugin -->
+                <script src="/js/chartist.min.js"></script>
 
-</html>
+                <!--  Notifications Plugin    -->
+                <script src="/js/bootstrap-notify.js"></script>
+
+                <!--  Google Maps Plugin    -->
+                <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
+
+                <!-- Material Dashboard javascript methods -->
+                <script src="/js/material-dashboard.js"></script>
+
+                </html>

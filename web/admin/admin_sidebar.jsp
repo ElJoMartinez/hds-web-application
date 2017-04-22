@@ -28,15 +28,15 @@ Tip 2: you can also add an image using data-image tag
                 </a>
             </li>
             <li>
-                <a href="user.html">
+                <a href="#">
                     <i class="material-icons">person</i>
-                    <p>User Profile</p>
+                    <p>Sales Records</p>
                 </a>
             </li>
             <li>
-                <a href="table.html">
+                <a href="#">
                     <i class="material-icons">content_paste</i>
-                    <p>Table List</p>
+                    <p>Products</p>
                 </a>
             </li>
             <li>

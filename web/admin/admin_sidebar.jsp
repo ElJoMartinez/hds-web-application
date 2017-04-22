@@ -13,7 +13,7 @@ Tip 2: you can also add an image using data-image tag
     -->
 
     <div class="logo">
-        <a href="/admin/index.jsp" class="simple-text">
+        <a href="/admincontroller/showCustomers" class="simple-text">
             Welcome Admin
         </a>
     </div>
@@ -21,10 +21,10 @@ Tip 2: you can also add an image using data-image tag
 
     <div class="sidebar-wrapper">
         <ul class="nav">
-            <li>
+            <li class="active">
                 <a href="dashboard.html">
-                    <i class="material-icons">dashboard</i>
-                    <p>Dashboard</p>
+                    <i class="material-icons">person</i>
+                    <p>Customers</p>
                 </a>
             </li>
             <li>
@@ -33,7 +33,7 @@ Tip 2: you can also add an image using data-image tag
                     <p>User Profile</p>
                 </a>
             </li>
-            <li class="active">
+            <li>
                 <a href="table.html">
                     <i class="material-icons">content_paste</i>
                     <p>Table List</p>

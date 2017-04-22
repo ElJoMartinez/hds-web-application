@@ -32,16 +32,17 @@ public class AdminController extends HttpServlet {
 
         String requestURI = request.getRequestURI();
         String url = "/admin";
-        if (requestURI.endsWith("/displayInvoices")) {
+        System.out.println("Hello from post admin");
+        if (requestURI.endsWith("/displaySalesRecords")) {
             url = displaySalesRecords(request, response);
         } else if (requestURI.endsWith("/processInvoice")) {
             url = processSalesRecord(request, response);
         } else if (requestURI.endsWith("/displayReport")) {
             displayReport(request, response);
-        } else if (requestURI.endsWith("/displayInvoices2")) {
-            url = displaySalesRecords(request, response);
+        } else if (requestURI.endsWith("/displayCustomers")) {
+            url = displayCustomers(request, response);
         } else if (requestURI.endsWith("/productMaintanence")) {
-            url = displayProducts(request, response);
+            url = displayCustomers(request, response);
         }
         getServletContext()
                 .getRequestDispatcher(url)
@@ -52,15 +53,15 @@ public class AdminController extends HttpServlet {
     public void doGet(HttpServletRequest request,
             HttpServletResponse response)
             throws IOException, ServletException {
-
+        System.out.println("Hello from get");
         String requestURI = request.getRequestURI();
         String url = "/admin";
         if (requestURI.endsWith("/displayInvoice")) {
             url = displaySalesRecords(request, response);
         } else if (requestURI.endsWith("/displayInvoices")) {
             url = displaySalesRecords(request, response);
-        } else if (requestURI.endsWith("/productMaintanence")) {
-            url = displayProducts(request, response);
+        } else if (requestURI.endsWith("/showCustomers")) {
+            url = displayCustomers(request, response);
         }
 
         getServletContext()
@@ -88,10 +89,13 @@ public class AdminController extends HttpServlet {
         
     }
     
-    private String displayProducts(HttpServletRequest request,
+    private String displayCustomers(HttpServletRequest request,
             HttpServletResponse response) throws IOException {
         String url;
+        System.out.println("We got here!");
         url = "/admin/index.jsp";
+        List<Customer> customers = CustomerDB.selectCustomers();
+        request.setAttribute("customers", customers);
         return url;
     }
     

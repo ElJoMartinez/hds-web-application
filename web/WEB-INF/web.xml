@@ -24,7 +24,7 @@
     </servlet>
      <servlet>
         <servlet-name>AdminController</servlet-name>
-        <servlet-class>music.controllers.AdminController</servlet-class>
+        <servlet-class>home.controllers.AdminController</servlet-class>
     </servlet>
     
    

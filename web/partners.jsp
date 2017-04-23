@@ -137,7 +137,7 @@
         </div>
         <div class="row">
             <div class=" col-md-4">
-                <a href="http://subzero-wolf.com/sub-zero">
+                <a href="http://www.subzero-wolf.com/sub-zero">
                     <img src="/images/subzerologo.gif" alt="sub-zero" id="logo-partner" class="img-responsive "/>
                 </a>
                 <h4 class="text-center">Refrigeration</h4>
@@ -150,9 +150,29 @@
             </div>
             <div class=" col-md-4">
                 <a href="http://www.u-line.com">
-                    <img src="/images/ulinelogo.png" alt="Scotsman" id="logo-partner" class="img-responsive "/>
+                    <img src="/images/ulinelogo.png" alt="uline" id="logo-partner" class="img-responsive "/>
                 </a>
                 <h4 class="text-center">Refrigeration</h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class=" col-md-4">
+                <a href="http://www.venmar.ca">
+                    <img src="/images/venmarlogo.png" alt="venmar" id="logo-partner" class="img-responsive "/>
+                </a>
+                <h4 class="text-center">Ventilation Systems</h4>
+            </div>
+            <div class=" col-md-4">
+                <a href="http://www.vikingrange.com">
+                    <img src="/images/vikinglogo.png" alt="viking" id="logo-partner" class="img-responsive "/>
+                </a>
+                <h4 class="text-center">Kitchen Appliances</h4>
+            </div>
+            <div class=" col-md-4">
+                <a href="http://www.subzero-wolf.com/wolf">
+                    <img src="/images/wolflogo.png" alt="wolf" id="logo-partner" class="img-responsive "/>
+                </a>
+                <h4 class="text-center">Cooking Appliances</h4>
             </div>
         </div>
     </div>

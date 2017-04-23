@@ -27,10 +27,10 @@
                     <tr>
                         <th class="text-center">#</th>
                         <th>Brand</th>
-                        <th>Model ID</th>
-                        <th>Serial ID</th>
+                        <th>Model#</th>
+                        <th>Serial#</th>
                         <th class="text-center">Description</th>
-                        <th>List Price</th>
+                        <th>Price</th>
                     </tr>
                     <jsp:include page="/includes/product_table.jsp" />
                 </thead>

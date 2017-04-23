@@ -81,7 +81,7 @@ footer a, footer a:hover, .navbar .navbar-nav > li > a:hover, .navbar .navbar-na
 }
 
 #header-img-login {
-    min-height: 700px;
+    min-height: 1024px;
     background-image: url('../images/login-header.jpg');
 }
 

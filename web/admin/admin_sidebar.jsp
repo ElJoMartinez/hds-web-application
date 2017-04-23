@@ -1,7 +1,7 @@
 <%-- 
     Document   : admin_sidebar
     Created on : Mar 11, 2017, 4:31:12 PM
-    Author     : toillezenitram
+    Author     : Elliot Martinez
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
@@ -12,7 +12,7 @@ Tip 2: you can also add an image using data-image tag
 
     -->
     <div class="logo">
-        <a href="/admincontroller/index.jsp" class="active simple-text">
+        <a href="/admin" class="active simple-text">
             Welcome Admin
         </a>
     </div>

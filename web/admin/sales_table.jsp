@@ -20,8 +20,8 @@
                             <thead class="text-default">
                             <th>ID</th>
                             <th>Sale Date</th>
-                            <th>Product</th>
-                            <th>Customer</th>
+                            <th>Product ID</th>
+                            <th>Customer ID</th>
                             <th>Quantity</th>
                             <th>Total</th>
                             </thead>

@@ -33,7 +33,7 @@ public class AdminController extends HttpServlet {
             throws IOException, ServletException {
 
         String requestURI = request.getRequestURI();
-        String url = "";
+        String url = "/admin";
         System.out.println("Hello from post admin");
         if (requestURI.endsWith("/displaySalesRecords")) {
             url = displaySalesRecords(request, response);
@@ -57,7 +57,7 @@ public class AdminController extends HttpServlet {
             throws IOException, ServletException {
         System.out.println("Hello from get");
         String requestURI = request.getRequestURI();
-        String url = "/";
+        String url = "/admin";
         if (requestURI.endsWith("/displaySalesRecords")) {
             url = displaySalesRecords(request, response);
         } else if (requestURI.endsWith("/logout")) {

@@ -27,7 +27,7 @@ Tip 2: you can also add an image using data-image tag
                 </a>
             </li>
             <li>
-                <a href="#">
+                <a href="/admincontroller/displaySalesRecords">
                     <i class="material-icons">content_paste</i>
                     <p>Sales Records</p>
                 </a>
@@ -36,6 +36,12 @@ Tip 2: you can also add an image using data-image tag
                 <a href="#">
                     <i class="material-icons">content_paste</i>
                     <p>Products</p>
+                </a>
+            </li>
+            <li>
+                <a href="/admincontroller/logout">
+                    <i class="material-icons">backspace</i>
+                    <p>Logout</p>
                 </a>
             </li>
             

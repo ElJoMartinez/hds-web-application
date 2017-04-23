@@ -23,6 +23,8 @@ import org.apache.poi.ss.usermodel.Workbook;
 import home.business.*;
 import home.data.*;
 import static home.data.ProductDB.selectProducts;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 public class AdminController extends HttpServlet {
     
     @Override
@@ -31,7 +33,7 @@ public class AdminController extends HttpServlet {
             throws IOException, ServletException {
 
         String requestURI = request.getRequestURI();
-        String url = "/admin";
+        String url = "";
         System.out.println("Hello from post admin");
         if (requestURI.endsWith("/displaySalesRecords")) {
             url = displaySalesRecords(request, response);
@@ -55,11 +57,12 @@ public class AdminController extends HttpServlet {
             throws IOException, ServletException {
         System.out.println("Hello from get");
         String requestURI = request.getRequestURI();
-        String url = "/admin";
-        if (requestURI.endsWith("/displayInvoice")) {
+        String url = "/";
+        if (requestURI.endsWith("/displaySalesRecords")) {
             url = displaySalesRecords(request, response);
-        } else if (requestURI.endsWith("/displayInvoices")) {
-            url = displaySalesRecords(request, response);
+        } else if (requestURI.endsWith("/logout")) {
+            logout(request, response);
+            return;
         } else if (requestURI.endsWith("/showCustomers")) {
             url = displayCustomers(request, response);
         }
@@ -73,7 +76,9 @@ public class AdminController extends HttpServlet {
             HttpServletResponse response) {
      
         String url;
-        url = "/admin/salesrecords.jsp";
+        url = "/admin/sales_index.jsp";
+        List<SalesRecord> records = SalesRecordsDB.selectSalesRecords();
+        request.setAttribute("records", records);
         return url;
     }
     
@@ -97,6 +102,20 @@ public class AdminController extends HttpServlet {
         List<Customer> customers = CustomerDB.selectCustomers();
         request.setAttribute("customers", customers);
         return url;
+    }
+    
+    private void logout(HttpServletRequest request,
+        HttpServletResponse response) {
+        HttpSession session = request.getSession();
+        session.invalidate();
+        
+        String relativeURL = request.getContextPath();
+
+        try {
+            response.sendRedirect(relativeURL + "/admin");
+        } catch (IOException ex) {
+            Logger.getLogger(UserController.class.getName()).log(Level.SEVERE, null, ex);
+        }
     }
     
 }

@@ -27,6 +27,7 @@
     <body>
         <div class="wrapper">
             <%@include file="/admin/admin_sidebar.jsp" %>
-            <%@include file="/admin/customer_view.jsp" %>
+            <%@include file="/admin/sales_view.jsp" %>
             
            
+

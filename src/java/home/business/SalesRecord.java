@@ -38,11 +38,11 @@ public class SalesRecord implements Serializable {
     @Column(name = "TotalCost", nullable = false)
     private double totalCost;
     
-    public long getSalesRecordId() {
+    public long getSaleId() {
         return saleId;
     }
     
-    public void setSalesRecordId(long saleId) {
+    public void setSaleId(long saleId) {
         this.saleId = saleId;
     }
     

@@ -3,7 +3,7 @@ package home.data;
 /**
  *
  * @author Elliot Martinez
- * Description: SalesRecord DB class that uses SalesRecord entity 
+ * Description: Employee DB class that uses employee entity 
  * methods to retrieve and manipulate database entries
  */
 
@@ -12,19 +12,19 @@ import javax.persistence.EntityManager;
 import javax.persistence.NoResultException;
 import javax.persistence.TypedQuery;
 
-import home.business.SalesRecord;
+import home.business.Employee;
 
-public class SalesRecordsDB {
+public class EmployeeDB {
     
-    // Since I am not required to edit or update the salesrecords 
+    // Since I am not required to edit or update the customer 
     // database from the web application, I will only 
     // provide the web app with the ability to view the 
-    // salesrecords database.
-    public static List<SalesRecord> selectSalesRecords() {
+    // Customer database.
+    public static List<Employee> selectEmployees() {
         EntityManager em = getEM();
-        String qString = "SELECT s from SalesRecord s";
-        TypedQuery<SalesRecord> q = em.createQuery(qString, SalesRecord.class);
-        List<SalesRecord> results = null;
+        String qString = "SELECT e from Employee e";
+        TypedQuery<Employee> q = em.createQuery(qString, Employee.class);
+        List<Employee> results = null;
         try {
             results = q.getResultList();
         } catch (NoResultException ex) {

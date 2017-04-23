@@ -10,30 +10,28 @@
             <div class="col-md-12">
                 <div class="card">
                     <div class="card-header" data-background-color="orange">
-                        <h4 class="title">Sales Records List</h4>
+                        <h4 class="title">Employee List</h4>
                         <p class="category">
-                            Below is a complete list for HDS' sales records
+                            Below is a complete list of HDS' employees
                         </p>
                     </div>
                     <div class="card-content table-responsive">
                         <table class="table">
                             <thead class="text-default">
                             <th>ID</th>
-                            <th>Sale Date</th>
-                            <th>Product</th>
-                            <th>Customer</th>
-                            <th>Quantity</th>
-                            <th>Total</th>
+                            <th>First Name</th>
+                            <th>Last Name</th>
+                            <th>Title</th>
+                            <th>Pay Rate</th>
                             </thead>
                             <tbody>
-                                <c:forEach var="record" items="${records}">
+                                <c:forEach var="employee" items="${employees}">
                                     <tr>
-                                        <td class="text-left">${record.saleId}</td>
-                                        <td class="text-left">${record.saleDate}</td>
-                                        <td class="text-left">${record.productId}</td>
-                                        <td class="text-left">${record.customerId}</td>
-                                        <td class="text-left">${record.quantity}</td>
-                                        <td class="text-left">$${record.totalCost}</td> 
+                                        <td class="text-left">${employee.employeeId}</td>
+                                        <td class="text-left">${employee.firstName}</td>
+                                        <td class="text-left">${employee.lastName}</td>
+                                        <td class="text-left">${employee.jobTitle}</td>
+                                        <td class="text-left">$${employee.payRate}/hour</td> 
                                     </tr>
                                 </c:forEach>
                             </tbody>

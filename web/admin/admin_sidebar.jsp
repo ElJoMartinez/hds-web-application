@@ -33,9 +33,9 @@ Tip 2: you can also add an image using data-image tag
                 </a>
             </li>
             <li>
-                <a href="#">
-                    <i class="material-icons">content_paste</i>
-                    <p>Products</p>
+                <a href="/admincontroller/showEmployees">
+                    <i class="material-icons">people</i>
+                    <p>Employees</p>
                 </a>
             </li>
             <li>

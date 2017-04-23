@@ -65,6 +65,8 @@ public class AdminController extends HttpServlet {
             return;
         } else if (requestURI.endsWith("/showCustomers")) {
             url = displayCustomers(request, response);
+        } else if (requestURI.endsWith("/showEmployees")) {
+            url = displayEmployees(request, response);
         }
 
         getServletContext()
@@ -116,6 +118,18 @@ public class AdminController extends HttpServlet {
         } catch (IOException ex) {
             Logger.getLogger(UserController.class.getName()).log(Level.SEVERE, null, ex);
         }
+    }
+    
+    private String displayEmployees(HttpServletRequest request, HttpServletResponse response) {
+        
+        
+        String url;
+        url = "/admin/employee_index.jsp";
+        
+        List<Employee> employees = EmployeeDB.selectEmployees();
+        request.setAttribute("employees", employees);
+        
+        return url;
     }
     
 }

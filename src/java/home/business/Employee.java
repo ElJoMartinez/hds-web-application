@@ -22,36 +22,51 @@ import java.util.Date;
 public class Employee implements Serializable {
     
    @Id // primary key
-   @Column(name="EMPLOYEEID", nullable = false)
+   @Column(name="EmployeeID", nullable = false)
    @GeneratedValue(strategy = GenerationType.AUTO)
    private long employeeId;
    
-   @Column(name = "FIRSTNAME", nullable = false)
+   @Column(name = "FirstName", nullable = false)
    private String firstName;
    
-   @Column(name = "LASTNAME", nullable = false)
+   @Column(name = "LastName", nullable = false)
    private String lastName;
    
-   @Column(name = "JOBTITLE", nullable = false)
+   @Column(name = "Title", nullable = false)
    private String jobTitle;
    
-   @Column(name = "ADDRESS", nullable = false)
-   private String address;
+   @Column(name = "Street", nullable = false)
+   private String street;
    
-   @Column(name = "CITY", nullable = false)
+   @Column(name = "City", nullable = false)
    private String city;
    
-   @Column(name = "ST", nullable = false)
+   @Column(name = "St", nullable = false)
    private String st;
    
-   @Column(name = "ZIP", nullable = false)
+   @Column(name = "Zip", nullable = false)
    private String zip;
    
-   @Column(name = "PAYRATE", nullable = false)
+   @Column(name = "PayRate", nullable = false)
    private double payRate;
    
-   @Column(name = "HIREDATE", nullable = false)
-   private Date hireDate;
+   @Column(name = "Phone", nullable = false)
+   private String phone;
+   
+   @Column(name = "Email", nullable = false)
+   private String email;
+   
+   @Column(name = "OfficeID", nullable = false)
+   private long officeId;
+   
+   @Column(name = "JobID", nullable = false)
+   private long jobId;
+   
+   @Column(name = "BeginDate", nullable = false)
+   private String beginDate;
+   
+   @Column(name = "EndDate", nullable = false)
+   private String endDate;
    
    // Getters and Setters
    
@@ -83,12 +98,12 @@ public class Employee implements Serializable {
        return jobTitle;
    }
    
-   public String getAddress() {
-       return address;
+   public String getStreet() {
+       return street;
    }
    
-   public void setAddress(String address) {
-       this.address = address;
+   public void setStreet(String street) {
+       this.street = street;
    }
    
    public String getState() {
@@ -123,12 +138,41 @@ public class Employee implements Serializable {
        this.payRate = payRate;
    }
    
-   public Date getHireDate() {
-       return hireDate;
+   public String getPhone() {
+       return phone;
    }
    
-   public void setHireDate(Date hireDate) {
-       this.hireDate = hireDate;
+   public void setPhone(String phone) {
+       this.phone = phone;
+   }
+   public String getEmail() {
+       return email;
+   }
+   
+   public void setEmail(String email) {
+       this.email = email;
+   }
+   public long getOfficeId() {
+       return officeId;
+   }
+   
+   public void setOfficeId(long officeId) {
+       this.officeId = officeId;
+   }
+   public long getJobId() {
+       return jobId;
+   }
+   
+   public void setJobId(long jobId) {
+       this.jobId = jobId;
+   }
+   
+   public String getBeginDate() {
+       return beginDate;
+   }
+   
+   public void setEndDate(String endDate) {
+       this.endDate = endDate;
    }
    
   

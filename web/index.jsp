@@ -21,9 +21,15 @@
                 <div class="row">
                     <div class="col-md-6 col-md-offset-3">
                         <h2 class="title">Our Specialties</h2>
-                        <h5 class="description"> Home Design Solutions offers the southwest region
-                                                 of the United States with expert consultation,
-                                                 construction, design and remodeling services.</h5>
+                        <h3 class="description"> 
+                            Home Design Solutions offers the southwest region
+                            of the United States with expert consultation,
+                            construction, design and remodeling services. Our 
+                            expert staff provides the highest quality customer
+                            service delivering on our promise to keep our 
+                            customers satisfied while transforming their 
+                            homes into works of art that are built to last. 
+                        </h3>
                     </div>
                 </div>
 

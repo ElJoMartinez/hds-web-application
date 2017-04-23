@@ -195,6 +195,7 @@ footer a, footer a:hover, .navbar .navbar-nav > li > a:hover, .navbar .navbar-na
 #logo-partner{
     margin-left: auto;
     margin-right: auto;
+    width: 150px;
 
 }
 #header-img-services {
@@ -224,4 +225,9 @@ footer a, footer a:hover, .navbar .navbar-nav > li > a:hover, .navbar .navbar-na
 .equal {
   display: flex;
   display: -webkit-flex;
+}
+
+#para:first-letter {
+    color: #ff992c;
+    font-size: 2em;
 }

@@ -12,7 +12,7 @@ import java.io.Serializable;
 import javax.persistence.*;
 
 
-@Entity
+@Entity(name = "Customer")
 public class Customer implements Serializable{
     
     @Id //primary key

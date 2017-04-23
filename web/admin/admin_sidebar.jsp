@@ -28,7 +28,7 @@ Tip 2: you can also add an image using data-image tag
             </li>
             <li>
                 <a href="#">
-                    <i class="material-icons">person</i>
+                    <i class="material-icons">content_paste</i>
                     <p>Sales Records</p>
                 </a>
             </li>

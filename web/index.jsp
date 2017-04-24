@@ -32,7 +32,6 @@
                         </h3>
                     </div>
                 </div>
-
                 <div class="features">
                     <div class="row">
                         <div class="col-md-4">
@@ -70,19 +69,58 @@
                                     <i class="material-icons">local_shipping</i>
                                 </div>
                                 <h4 class="info-title">Warehousing and Deliveries</h4>
-                                <p> Most of the appliances and bathroom fixtures
-                                    are drop shipped (if possible) by the supplier
-                                    directly to the job site. If this cannot be done
-                                    they are delivered to the store and held in
-                                    our warehouse until they are ready for 
-                                    delivery and installation. In some cases, 
-                                    items are stored in the client's garage if 
-                                    their order is paid in full.
+                                <p> 
+                                    We warehouse certain product models and 
+                                    can be delivered and stored at our
+                                    customer's home when their order balance is 
+                                    paid in full.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="info">
+                                <div class="icon icon-primary" id="delivery">
+                                <i class="material-icons">format_paint</i>
+                                </div>
+                                <h4 class="info-title">Painting</h4>
+                                <p> 
+                                    We are partnered with AZ Design, an external
+                                    contractor that meets with our customers in
+                                    which they will provide further details.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="info">
+                                <div class="icon icon-success" id="consultation">
+                                    <i class="material-icons">lightbulb_outline</i>
+                                </div>
+                                <h4 class="info-title">Electrical</h4>
+                                <p> 
+                                    New kitchen and bath designs sometimes 
+                                    require updated and future proof electrical
+                                    work which is performed by one of our 
+                                    installation specialists.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="info">
+                                <div class="icon icon-danger" id="build">
+                                    <i class="material-icons">build</i>
+                                </div>
+                                <h4 class="info-title">Construction</h4>
+                                <p> 
+                                    We move walls and sheet rock and do framing
+                                    windows and more.
                                 </p>
                             </div>
                         </div>
                     </div>
                 </div>
+                
             </div>
 
             <div class="section text-center">
@@ -96,7 +134,7 @@
                                 <h4 class="title">Phoenix Location <br />
                                     <small class="text-muted">Headquarters</small>
                                 </h4>
-                                <p class="description">You can write here details about one of your team members. You can give more details about what they do. Feel free to add some <a href="#">links</a> for people to be able to follow them outside the site.</p>
+                                <p class="description">Phoenix, Arizona</p>
                             </div>
                         </div>
                         <div class="col-md-4 ">
@@ -105,7 +143,9 @@
                                 <h4 class="title">Scottsdale Location<br />
                                     <small class="text-muted">Store</small>
                                 </h4>
-                                <p class="description">You can write here details about one of your team members. You can give more details about what they do. Feel free to add some <a href="#">links</a> for people to be able to follow them outside the site.</p>
+                                <p class="description">
+                                    Scottsdale, Arizona
+                                </p>
                                 
                             </div>
                         </div>
@@ -115,7 +155,9 @@
                                 <h4 class="title">Tucson Location<br />
                                     <small class="text-muted">Store</small>
                                 </h4>
-                                <p class='description'>You can write here details about one of your team members. You can give more details about what they do. Feel free to add some <a href="#">links</a> for people to be able to follow them outside the site.</p>
+                                <p class='description'>
+                                    Tucson, Arizona
+                                </p>
                                 
                             </div>
                         </div>
@@ -127,7 +169,9 @@
                                 <h4 class="title">Las Vegas Location <br />
                                     <small class="text-muted">Store</small>
                                 </h4>
-                                <p class="description">You can write here details about one of your team members. You can give more details about what they do. Feel free to add some <a href="#">links</a> for people to be able to follow them outside the site.</p>
+                                <p class="description">
+                                    Las Vegas, Nevada
+                                </p>
                             </div>
                         </div>
                         <div class="col-md-4 ">
@@ -136,7 +180,9 @@
                                 <h4 class="title">Albuquerque Location <br />
                                     <small class="text-muted">Store</small>
                                 </h4>
-                                <p class="description">You can write here details about one of your team members. You can give more details about what they do. Feel free to add some <a href="#">links</a> for people to be able to follow them outside the site.</p>
+                                <p class="description">
+                                    Albuquerque, New Mexico
+                                </p>
                             </div>
                         </div>
                     </div>

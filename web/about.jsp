@@ -68,6 +68,19 @@
                     
                 </div>
             </div>
+            <div class='row'>
+                <div class='col-md-6 col-md-offset-3'>
+                    <h2 class='title'>Our Headquarters Location</h2>
+                    <h3 class='description'>
+                        <p>
+                        
+                            101 Sedalia Drive. Phoenix, Arizona 85501<br>
+                            Phone: 602-KITCHEN<br>
+                            Fax: 602-555-1212
+                        </p>
+                    </h3>
+                </div>
+            </div>
 
             
         </div>

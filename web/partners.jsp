@@ -372,6 +372,243 @@
                 </h4>
             </div>
         </div>
+         <div class='row'>
+            <div class='col-md-8 col-md-offset-2'>
+                <h2 class='text-center title'>
+                    Kitchen and Bath Plumbing
+                </h2>
+            </div>
+            <div class='col-md-4 text-center'>
+                <h4 class='title'>
+                    Kohler Kitchen Faucets
+                </h4>
+                <h4 class='description'>
+                    www.us.kohler.com/
+                </h4>
+            </div>
+            <div class='col-md-4 text-center'>
+                <h4 class='title'>
+                   Grohe Kitchen Faucets
+                </h4>
+                <h4 class='description'>
+                    www.groheamerica.com/
+                </h4>
+            </div>
+            <div class='col-md-4 text-center'>
+                <h4 class='title'>
+                   American Standard Kitchen Faucets
+                </h4>
+                <h4 class='description'>
+                    www.americanstandard-us.com/
+                </h4>
+            </div>
+            <div class='col-md-4 text-center'>
+                <h4 class='title'>
+                    BlaNCo Kitchen Faucets
+                </h4>
+                <h4 class='description'>
+                    www.blaNCoamerica.com/
+                </h4>
+            </div>
+            <div class='col-md-4 text-center'>
+                <h4 class='title'>
+                   Delta Faucets
+                </h4>
+                <h4 class='description'>
+                   www.deltafaucets.com
+                </h4>
+            </div>
+            <div class='col-md-4 text-center'>
+                <h4 class='title'>
+                    Price Pfister Faucets
+                </h4>
+                <h4 class='description'>
+                    www.pricepfister.com
+                </h4>
+            </div>
+            <div class='col-md-4 text-center'>
+                <h4 class='title'>
+                   Newport Kitchen Faucets
+                </h4>
+                <h4 class='description'>
+                    contact HDS for more details
+                </h4>
+            </div>
+            <div class='col-md-4 text-center'>
+                <h4 class='title'>
+                    Elkay Kitchen Faucets
+                </h4>
+                <h4 class='description'>
+                   www.elkay.com/
+                </h4>
+            </div>
+            <div class='col-md-4 text-center'>
+                <h4 class='title'>
+                    Herbeau Kitchen Faucets
+                </h4>
+                <h4 class='description'>
+                    www.herbeau.com
+                </h4>
+            </div>
+            <div class='col-md-4 text-center'>
+                <h4 class='title'>
+                   Hansgrohe Kitchen Faucets
+                </h4>
+                <h4 class='description'>
+                    www.hansgrohe.com
+                </h4>
+            </div>
+            <div class='col-md-4 text-center'>
+                <h4 class='title'>
+                    Moen Kitchen Faucets
+                </h4>
+                <h4 class='description'>
+                    www.moen.com/
+                </h4>
+            </div>
+            <div class='col-md-4 text-center'>
+                <h4 class='title'>
+                    Danze Kitchen Faucets
+                </h4>
+                <h4 class='description'>
+                   www.danze-online.com/
+                </h4>
+            </div>
+        </div>
+         <div class='row'>
+            <div class='col-md-8 col-md-offset-2'>
+                <h2 class='text-center title'>
+                    Kitchen and Bath Countertops & Floor Tile
+                </h2>
+            </div>
+            <div class='col-md-4 text-center'>
+                <h4 class='title'>
+                    Laminate
+                </h4>
+                <h4 class='description'>
+                    <strong>Formica</strong><br>
+                    www.formica.com/<br>productgroup.jsp?group_id=1
+                </h4>
+                <h4 class='description'>
+                    <strong>Nevamar</strong><br>
+                    www.nevamar.com/index_flash.asp
+                </h4>
+                <h4 class='description'>
+                    <strong>Pionite</strong><br>
+                   www.pionite.com/
+                </h4>
+                <h4 class='description'>
+                    <strong>Wilsonart</strong><br>
+                    www.wilsonart.com/
+                </h4>
+            </div>
+            <div class='col-md-4 text-center'>
+                <h4 class='title'>
+                   Stone
+                </h4>
+                <h4 class='description'>
+                    <strong>Cosentino</strong><br>
+                    www.silestone.com/index.php
+                </h4>
+                <h4 class='description'>
+                    <strong>DuPont Zodiaq</strong><br>
+                    www.dupont.com<br>/zodiaq/a/en/h/Home/index.html
+                </h4>
+                <h4 class='description'>
+                    <strong>Green Mountain Soapstone</strong><br>
+                    www.greenmountainsoapstone.com/<br>kitchens_countertops.html
+                </h4>
+                <h4 class='description'>
+                    <strong>Kirkstone</strong><br>
+                    www.kirkstone.com/
+                </h4>
+            </div>
+            <div class='col-md-4 text-center'>
+                <h4 class='title'>
+                   Concrete
+                </h4>
+                <h4 class='description'>
+                    <strong>Buddy Rhodes Studio</strong><br>
+                    www.buddyrhodes.com/<br>welcome2.html
+                </h4>
+                <h4 class='description'>
+                    <strong>Cheng Design</strong><br>
+                   www.chengdesign.com/
+                </h4>
+                <h4 class='description '>
+                    <strong>Couter/Production</strong><br>
+                   www.counterproduction.com/
+                </h4>
+            </div>
+            <div class='col-md-4 text-center' style="clear:both;">
+                <h4 class='title'>
+                    Tile
+                </h4>
+                <h4 class='description'>
+                    <strong>American Olean</strong><br>
+                    www.americanolean.com/
+                </h4>
+                <h4 class='description'>
+                    <strong>Congoleum</strong><br>
+                    www.congoleum.com/
+                </h4>
+                <h4 class='description'>
+                    <strong>Formica</strong><br>
+                    www.formica.com/productgroup.jsp?group_id=1
+                </h4>
+            </div>
+            <div class='col-md-4 text-center'>
+                <h4 class='title'>
+                   Solid Surface
+                </h4>
+                <h4 class='description'>
+                    <strong>Avonite</strong><br>
+                    www.avonitesurfaces.com/
+                </h4>
+                <h4 class='description'>
+                    <strong>DuPont Corian</strong><br>
+                    www.dupong.com/<br>corian/a/en/h/HOME/intro.html
+                </h4>
+                <h4 class='description'>
+                    <strong>Formica</strong><br>
+                    www.formica.com/productgroup.jsp?group_id=2
+                </h4>
+                <h4 class='description'>
+                    <strong>Wilsonart</strong><br>
+                    www.wilsonart.com/<br>solidsurface/index.asp
+                </h4>
+            </div>
+            <div class='col-md-4 text-center'>
+                <h4 class='title'>
+                    Wood
+                </h4>
+                <h4 class='description'>
+                    <strong>Armstrong</strong><br>
+                    www.armstrong.com/<br>resna/res_floors.jsp
+                </h4>
+                <h4 class='description'>
+                    <strong>Black River Floors</strong><br>
+                    www.blackriverfloors.com/
+                </h4>
+                <h4 class='description'>
+                    <strong>John Boos & Co.</strong><br>
+                    www.johnboos.com/
+                </h4>
+                <h4 class='description'>
+                    <strong>Monticello Flooring & Lumber</strong><br>
+                    www.monicelloflooring.com/
+                </h4>
+                <h4 class='description'>
+                    <strong>Pergo</strong><br>
+                    www.pergo.com/<br>SplashDefault.asp
+                </h4>
+                <h4 class='description'>
+                    <strong>Zickgraf Flooring</strong><br>
+                    www.zickgraf.com/index3.htm
+                </h4>
+            </div>
+            
+        </div>
     </div>
 </div>
 <!-- end the middle column -->
